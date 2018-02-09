@@ -1,0 +1,8 @@
+{
+	"mapZoom": 15,
+	"markerImagePath": "../assets/img/marker-21x32.png",
+	"markerLatLng": [
+		41.119325,
+		29.007678,15
+	]
+}
