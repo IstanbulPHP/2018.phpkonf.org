@@ -1,4 +1,4 @@
-var dataURL = 'http://2018.test/data.json';
+var dataURL = 'https://phpkonf.org/data.json';
 
 var App = new Vue({
     el: '#speakers',
