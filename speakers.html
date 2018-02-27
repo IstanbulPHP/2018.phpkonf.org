@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>May 20-21st 2018 - PHPKonf Istanbul PHP Conference</title>
+
+    <meta name="keywords"
+          content="PHP, PHPKonf, PHP Conference, PHP Konferansı, İstanbul PHP Konferansı, Istanbul PHP Conference">
+    <meta name="author" content="PHPKonf">
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<header class="header header-black">
+    <div class="header-wrapper">
+        <div class="container">
+            <div class="col-sm-2 col-xs-12 navigation-header">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.png" alt="VentCamp" class="retina-hide">
+                    <img src="assets/images/logo.png" alt="VentCamp" class="retina-show">
+                </a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation"
+                        aria-expanded="false" aria-controls="navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="col-sm-10 col-xs-12 navigation-container">
+                <div id="navigation" class="navbar-collapse collapse">
+                    <ul class="navigation-list pull-right light-text">
+                        <li class="navigation-item"><a href="speakers.html" class="navigation-link">Speakers</a></li>
+                        <li class="navigation-item"><a href="index.html#schedule" class="navigation-link">Schedule</a></li>
+                        <li class="navigation-item"><a href="index.html#prices" class="navigation-link">Tickets</a></li>
+                        <li class="navigation-item"><a href="index.html#sponsors" class="navigation-link">Sponsors</a></li>
+                        <li class="navigation-item"><a target="_blank" href="https://phpwomen.istanbulphp.org"
+                                                       class="navigation-link">PHPWomen Workshop</a></li>
+                        <li class="navigation-item"><a href="index.html#contacts" class="navigation-link">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="speakers" class="section align-center">
+    <div class="container">
+
+        <h3>Speakers / Sessions</h3>
+        <p>A-Z ordered</p>
+        <hr/>
+
+        <div class="media" id="speakers" v-for="item in speakers">
+            <div class="media-left">
+                <a href="#">
+                    <img style="margin-right: 15px;" width="150px" height="150px" align="left" :alt="item.name" class="img img-circle" :src="item.avatar">
+                </a>
+            </div>
+            <div class="align-left media-body">
+                <p style="font-weight: bold">{{ item.name }} / {{ item.title }}</p>
+                <p>{{ item.bio }}</p>
+                <ul class="speaker-socials list-inline pull-right">
+                    <li><a target="_blank" :href="item.social.twitter"><span class="fa fa-twitter"></span></a></li>
+                    <li><a target="_blank" :href="item.social.github"><span class="fa fa-github"></span></a></li>
+                    <li><a target="_blank" :href="item.social.linkedin"><span class="fa fa-linkedin"></span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <div class="align-left media-body">
+                <ul v-for="session in item.sessions">
+                    <li>
+                        <p style="font-weight: bold">{{ session.title }} / Language: {{ session.language }}</p>
+                        <p>{{ session.description }}</p>
+                    </li>
+                </ul>
+            </div>
+
+            <hr/>
+        </div>
+
+    </div>
+</section>
+
+<section class="footer">
+    <div class="footer-base">
+        <div class="container">
+
+            <div class="col-md-6">
+                <ul class="footer-nav">
+                    <li class="footer-nav-item"><a target="_blank" href="mailto:mail@istanbulphp.org">Contact</a></li>
+                    <li class="footer-nav-item"><a target="_blank" href="http://confcodeofconduct.com/">Code of
+                        Conduct</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 align-right">
+                <ul class="socials-nav align-right">
+                    <li class="socials-nav-item"><a target="_blank" href="https://twitter.com/istanbulphp"><span
+                            class="fa fa-twitter"></span></a></li>
+                    <li class="socials-nav-item"><a target="_blank" href="https://facebook.com/phpkonf"><span
+                            class="fa fa-facebook"></span></a></li>
+                    <li class="socials-nav-item"><a target="_blank" href="https://github.com/istanbulphp"><span
+                            class="fa fa-github"></span></a></li>
+                    <li class="socials-nav-item"><a target="_blank"
+                                                    href="https://www.flickr.com/photos/150061759@N02"><span
+                            class="fa fa-flickr"></span></a></li>
+                </ul>
+
+                <p class="text-alt">
+                    <small>All Rights Reserved © 2018</small>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63786228-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-63786228-1');
+</script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js?ver=1"></script>
+<![endif]-->
+<!--[if (gte IE 9) | (!IE)]><!-->
+<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js?ver=1"></script>
+<!--<![endif]-->
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+<script src="app.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places&key=AIzaSyCdwGRqSLKdTXSBL8r7xoHy5z05877Cuss"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/toastr.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.appear.js"></script>
+<script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
+<script type="text/javascript" src="assets/js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="assets/js/modal-box.js"></script>
+<script type="text/javascript" src="assets/js/ventcamp.js"></script>
+</body>
+</html>

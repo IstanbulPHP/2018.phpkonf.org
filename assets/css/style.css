@@ -5943,7 +5943,7 @@ button[type="submit"] .loading {
   top: 50%;
   background-color: #ffffff;
   z-index: 100;
-  padding: 50px 70px;
+  padding: 40px 40px;
 }
 .contacts-on-map .list {
   font-size: 15px;

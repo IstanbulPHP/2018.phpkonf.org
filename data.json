@@ -1,0 +1,504 @@
+[
+  {
+    "name": "Bilal Cinarli",
+    "title": "Software Engineer at adidas, GDE on Web Technologies",
+    "bio": "Bilal is a big enthusiast of building maintainable and scalable front-ends. To achieve this goal, he maintains open-source projects such as Caffeine, Melange, Misto and UX Rocket. In day-to-day works, he works on mobile web apps and JavaScript applications for intranets and as well as clients. He manages teams and optimizes the front-end development process. He is also, teaches HTML\/CSS and JavaScript techniques and gave workshops about Front-end related topics. He blogs at HTML Mag and share his thoughts about web development, mobile approaches.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/bilal.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/bcinarli",
+      "github": "https:\/\/github.com\/bcinarli",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/bcinarli"
+    },
+    "sessions": [
+      {
+        "title": "Future Proof Frontend Coding: Decouple your dependencies",
+        "description": "Almost every 6 months we have new frameworks or approaches in frontend world. Sometime your project\u2019s codebase become outdated before it is on productions according to new techs. These rapid changes are tiring and frustrated for developers\u2019 time to time. This talks helps to visualize how to setup your codebase for changes with wrapping your dependencies in a standardized way. So, your internal modules never aware of your external dependencies and even do not figure out if dependency changed or not at all. With the standardizing your wrappers, at any time you can update or change your external dependencies safely.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "Türkçe"
+      }
+    ]
+  },
+  {
+    "name": "Derick Rethans",
+    "title": "Sr. Software Engineer at MongoDB, author of Xdebug",
+    "bio": "Derick Rethans is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast. He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He's a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He is now working at MongoDB, where he works on the PHP, C, and C++ drivers for MongoDB, and date\/time related server features.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/derick.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/derickr",
+      "github": "https:\/\/github.com\/derickr",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/derickrethans"
+    },
+    "sessions": [
+      {
+        "title": "What's new in Xdebug?",
+        "description": "In this talk I will cover the latest additions to Xdebug. Although it is 15 years old now, many features have been added in the last few months and years. In this talk, I will introduce and explain these new features, and some more notable features added in the last few years.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      },
+      {
+        "title": "Introduction to PHP Extensions",
+        "description": "You\u2019ve got that need\u2014the need for speed! Using step-by-step examples, we\u2019ll take functions written in PHP and convert them into loadable extensions using C. We\u2019ll then test both versions and compare the results. After seeing the size and scope of the benefits that can be realized with only a few minor changes, you\u2019ll be ready to take the plunge. You\u2019ll also understand why we start with simple things, and not try to rewrite all of Symfony in C.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Emir Karsiyakali",
+    "title": "Software Architect, PHP Evangelist",
+    "bio": "Emir Kar\u015f\u0131yakal\u0131 is Web developer with a passion for open-source, community & PHP. He is Zend Certified PHP Engineer and over 10 years of experience in web application development. User group leader of \u0130stanbul PHP. Organizer of PHPKonf 2014, 2015, 2016 and 2017, Jstanbul 2012, JSIST 2014, Mobilist 2013, PHP-ist 2013, HackING Hackathon 2014 and much more.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/emir.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/emirkarsiyakali",
+      "github": "https:\/\/github.com\/emir",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/emirkarsiyakali"
+    },
+    "sessions": [
+      {
+        "title": "PHP ile Defansif Programlama ve Statik Analiz",
+        "description": "Oturumda 7.0 s\u00fcr\u00fcm\u00fcyle Gradual typing'e ge\u00e7i\u015f yapan PHP'in Defansif Programlama taraf\u0131nda getirdikleri; hata derleme, soyutlama, calisthenics, de\u011fi\u015fmez objeler ve statik analiz anlat\u0131larak uzun \u00f6m\u00fcrl\u00fc ve \u00f6zellikle a\u00e7\u0131k kaynak projelerde uygulanmas\u0131 gereken bilgiler payla\u015f\u0131lacak.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "Türkçe"
+      }
+    ]
+  },
+  {
+    "name": "Fatih Kadir Akin",
+    "title": "Full-stack Developer at Protel",
+    "bio": "Fatih Kadir AKIN is a JavaScript Developer. He wrote JavaScript for years, before it was cool. Writing books, organizing events about front-end and JavaScript. Organized the first JavaScript Conference in Turkey: Jstanbul. He is a passioned open-source and community supporter. The \"f\" in GitHub.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/fatih.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/fkadev",
+      "github": "https:\/\/github.com\/f",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/fatihkadirakin"
+    },
+    "sessions": [
+      {
+        "title": "GraphQL: Yeni Nesil Uygulama Geli\u015ftirme Aray\u00fczleri",
+        "description": "Facebook taraf\u0131ndan geli\u015ftirilen GraphQL teknolojisinin detaylar\u0131n\u0131, kullan\u0131m alanlar\u0131n\u0131 ve PHP'de nas\u0131l kullan\u0131laca\u011f\u0131n\u0131 anlataca\u011f\u0131m\u0131z bir konu\u015fma olacak.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "Türkçe"
+      }
+    ]
+  },
+  {
+    "name": "Gary Hockin",
+    "title": "Sr. Software Engineer at BBC",
+    "bio": "Gary travels all over the world empowering users of PhpStorm as a Developer Advocate for JetBrains (fine purveyors of quality IDEs). He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to the Zend Framework and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least standard with nearly 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games, and arguing with his wife and two kids.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/gary.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/GeeH",
+      "github": "https:\/\/github.com\/GeeH",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/gary-hockin-9b06863a\/"
+    },
+    "sessions": [
+      {
+        "title": "Things I Wish I Knew When I Started Playing \"Developer\"?",
+        "description": "I'm a gamer, and some of my favourite articles to read about computer games are those click-bait posts that read \"Ten Things I Wish I Knew When I Started Playing Pac-Man!\". When you're playing computer games, it's easy to miss things that are obvious to others, and these posts can help you to understand a simple game mechanic that you'd otherwise have not used. It got me thinking about the things in my own career that I found out about too late, or didn't fully understand until much later than I needed it. We'll cover both the technical and the conversational, so join me, as I introduce you to Things I Wish I Knew When I Started Playing \"Developer\".",
+        "keynote": 1,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      },
+      {
+        "title": "Where to Start With Modern Zend Framework?",
+        "description": "The Zend Framework has evolved over the years from a full stack magical behemoth into an elegant set of interlocking libraries. But where do you start? Which framework should you use, Expressive or the MVC? What on earth is Diactoros? Join us as we take a look at exactly what exists in the Zend Framework eco-system with a brief introduction on how you can get started with the more interesting libraries.",
+        "keynote": 1,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Gulcin Yildirim Jelinek",
+    "title": "SRE at 2ndQuadrant, Board Member on PostgreSQL EU",
+    "bio": "G\u00fcl\u00e7in started working with PostgreSQL at a startup company in 2012 and was amazed how good Postgres really is! After being involved in organizing PostgreSQL conferences, giving talks and being an active community member she has been elected to PostgreSQL Europe Board in 2017. Gulcin is interested in PostgreSQL Automation and Cloud Technologies. She currently leads the Cloud service offerings at 2ndQuadrant as Site Reliability Engineer.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/gulcin.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/apatheticmagpie",
+      "github": "https:\/\/github.com\/apatheticmagpie",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/gulcinyildirim"
+    },
+    "sessions": [
+      {
+        "title": "PostgreSQL is not your traditional SQL database",
+        "description": "In this talk, we will discuss non-relational features of PostgreSQL such as JSONB datatype and full-text search. This will give you ideas about how to use PostgreSQL for modern software architectures.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Hazel Kavili",
+    "title": "Data Analyst at Wixot Games",
+    "bio": "Hazel Kav\u0131l\u0131 studied Statistics (B.Sc. and M.Sc.) and she currently works at Wixot as Data Analyst. Besides work she also does her PhD in Earth System Sciences. She is also the founder of R-Ladies Istanbul chapter and member of NASADatanauts 2017 spring class.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/hazel.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/zofiathewitch",
+      "github": "https:\/\/github.com\/UniversalTourist",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/hazzelkavili"
+    },
+    "sessions": [
+      {
+        "title": "Bir Veri Analistinin Web Geli\u015ftirme Maceralar\u0131",
+        "description": "Veri biliminin ortaya \u00e7\u0131kmas\u0131 ve b\u00fcy\u00fck miktarda veriyi analiz etme, yorumlama gereksiniminin artmas\u0131yla R dili daha pop\u00fcler hale geldi. Bununla birlikte istatistiksel hesaplar\u0131n yap\u0131ld\u0131\u011f\u0131 platformlar ve web aras\u0131nda daha p\u00fcr\u00fczs\u00fcz bir etkile\u015fime ihtiya\u00e7 duyulmaya ba\u015fland\u0131. Veriyi daha etkile\u015fimli bir kullan\u0131c\u0131 aray\u00fcz\u00fc ile analiz edebilen uygulamalar geli\u015ftirmek ve bu uygulamalar\u0131 cloud ortam\u0131nda \u00e7al\u0131\u015f\u0131r hale getirmek art\u0131k bir veri analistinin yapt\u0131\u011f\u0131 i\u015fler aras\u0131nda. R\u2019\u0131n Shiny paketi tam da bu durumlar i\u00e7in ideal bir ara\u00e7. Veri bilimi alan\u0131nda kad\u0131nlar\u0131n yerinden, global topluluklardan ve R-Ladies Istanbul\u2019un bu topluluklar aras\u0131ndaki yerinden bahsedilecek olan oturumda, R\u2019\u0131n Shiny uygulamalar\u0131 ile birlikte bir veri analistinin web geli\u015ftirme maceralar\u0131n\u0131 dinleyeceksiniz.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "Türkçe"
+      }
+    ]
+  },
+  {
+    "name": "Ismail Baskin",
+    "title": "Google Cloud Developer Expert, Full-stack Developer",
+    "bio": "Ismail Baskin is full stack developer for 12 years and has 2 years Google Cloud Services experience. He has been working as a freelancer developer and consultant.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/ismail.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/baskindev",
+      "github": "https:\/\/github.com\/ismailbaskin",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/ismailbaskin"
+    },
+    "sessions": [
+      {
+        "title": "Google Cloud ile m\u00fckemmel PHP API'leri geli\u015ftirin",
+        "description": "PHP uygulaman\u0131z\u0131 canl\u0131ya al\u0131rken yapmam\u0131z gereken bir \u00e7ok \u015fey var ama kodumuzu da karma\u015f\u0131kl\u0131ktan uzak tutmak istiyoruz. Kullan\u0131c\u0131lar\u0131 kimliklendirmek, yetkilendirmek, uygulaman\u0131n yava\u015f k\u0131s\u0131mlar\u0131n\u0131 fark etmek, loglar\u0131n\u0131 tutmak, sonras\u0131nda bu loglar\u0131 analiz etmek ve otomatik \u00f6l\u00e7eklendirmek gibi i\u015fleri bizim yerimize Google Cloud'un \u00e7\u00f6zmesi i\u00e7in bilmeniz gereken \u015feyler bu sunumda.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "Türkçe"
+      }
+    ]
+  },
+  {
+    "name": "James Titcumb",
+    "title": "Consultant at Roave, maintainer of Zend Framework",
+    "bio": "James is a consultant, trainer and developer at Roave. He is a prolific contributor to various open source projects and is a Zend Certified Engineer. He also founded the UK based PHP Hampshire user group and PHP South Coast conference.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/james.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/asgrim",
+      "github": "https:\/\/github.com\/asgrim",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/jamestitcumb"
+    },
+    "sessions": [
+      {
+        "title": "Crafting Quality PHP Applications",
+        "description": "This prototype works, but it's not pretty, and now it's in production. That legacy application really needs some TLC. Where do we start? When creating long lived applications, it's imperative to focus on good practices. The solution is to improve the whole development life cycle; from planning, better coding and testing, to automation, peer review and more. In this talk, we'll take a quick look into each of these areas, looking at how we can make positive, actionable change in our workflow.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Jenny Wong",
+    "title": "Community Engineer at Human Made",
+    "bio": "Once a Web Developer, Jenny now works as a Community Engineer at Human Made. When she started, she spent her first two weeks organizing a conference. She can often be found evangelizing open source community, event organiser and occasionally, speaker. Her days are varied: From solving issues with event sites & supporting organisers, to passionately cheering people on to contribute back to their communities. She loves cooking up elaborate ideas to help improve participation experiences in open source projects. When away from the laptop, she\u2019s usually binge watching Formula 1 & anime, doing house renovations or making a mess whilst cooking. You can find her on your messaging service of choice, making plenty of typos.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/jenny.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/miss_jwo",
+      "github": "https:\/\/github.com\/missjwo",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/jenny-wong-0a37b526\/"
+    },
+    "sessions": [
+      {
+        "title": "Serve PHP Happily",
+        "description": "The most common question or criticism about WordPress from PHP developers is: \u201cWhen will WordPress finally increase their minimum PHP version?\u201d In this talk Jenny will be sharing what WordPress has learnt from other PHP projects and how these lessons have informed the decision making and thought process of the WordPress efforts to upgrade. She will talk about the work being done with hosting providers, plugin authors and project Serve Happy. Come along to this talk if you want to find out what\u2019s on the cards for the future of WordPress and what you can learn on how to handle these kind of situations for your projects.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Juliette R. Folmer",
+    "title": "Self-employed developer",
+    "bio": "Juliette Reinders Folmer is an all round consultant and web-developer who tries not be a geek. Juliette is a long-standing member of PHPWomen which helped her immensely to find her feet in the PHP world. She is ZCE, actively contributes to a number of open source projects, has published several articles and speaks at conferences when given the chance. She loves it when you give her a chance to refactor spaghetti-code to something elegant and maintainable. Juliette is self-employed and based in the Netherlands.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/juliette.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/jrf_nl",
+      "github": "https:\/\/github.com\/jrfnl",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/julietterf\/"
+    },
+    "sessions": [
+      {
+        "title": "Don't work for PHPCS, make PHPCS work for you",
+        "description": "Congratulations! Your team has chosen a coding standard to use and you're well on your way to a consistent code style for all your projects. But... there are some extra things you'd like to check for, some rules you really can't be bothered with and some which sort of fit your needs, but not completely. Now what ? Come and learn how to make the PHP Codesniffer work for you and how to streamline the PHPCS related work-flow along the way.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Lemi Orhan Ergin",
+    "title": "Agile Software Craftsman and Agile Lead at iyzico",
+    "bio": "Lemi Orhan Ergin has been working as Agile Software Craftsman and Agile Practice Lead at iyzico. He completed his undergraduate and graduate degree in Computer Engineering department of Marmara University. He has been actively developing software since 2001. He has worked as software architect, software craftsman, technical leader, team leader, technical coordinator, Scrum Master and Agile coach in dozens of software projects at BYM, GittiGidiyor \/ eBay and Sony. As a managing partner in ACM, he has provided consulting services to dozens of companies. He has led the establishment of agile software cultures, continuity and sustainability in software teams. He has been sharing his experience about Agile \/ Scrum, Kanban, Management 3.0, Git, ALM Processes, TDD, Clean Code, Agile Engineering Practices and Software Craftsmanship with hundreds of professionals. He has been a national and international conference speaker. Slides of his talks has been displayed more than 1 million times on the Internet. He works voluntarily in software communities. He is the founder of the Software Craftsmanship Turkey community. He had been the leader of the community and the product owner of Agile Turkey Summit and CraftSummit conferences for two years.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/lemi.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/lemiorhan",
+      "github": "https:\/\/github.com\/lemiorhan",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/lemiorhan"
+    },
+    "sessions": [
+      {
+        "title": "Temiz Kod Tasar\u0131m\u0131",
+        "description": "Programlama bir zanaat. \u00c7\u0131rakl\u0131ktan ustal\u0131\u011fa \u00e7\u0131kt\u0131\u011f\u0131n\u0131z yolculu\u011funuzda s\u00fcrekli geli\u015ftirdi\u011finiz bir h\u00fcner. Bu h\u00fcner, zaman i\u00e7erisinde daha kaliteli kodlar\u0131n \u00fcretilmesini sa\u011flamal\u0131. Ancak g\u00fcn\u00fcm\u00fczde \u00fcretilen kodlar\u0131n kalitesinden s\u0131kl\u0131kla \u015fikayet etmemizden bu alanda \u00e7ok da fazla a\u015fama kaydetmedi\u011fimizi anl\u0131yoruz. Bu konuda art\u0131k ciddi bir ad\u0131m atmak zorunday\u0131z. Programlaman\u0131n temellerine inmeli, temiz kod tasar\u0131m\u0131 i\u00e7in gereken ortam\u0131 nas\u0131l sa\u011flayabilece\u011fimizi konu\u015fmal\u0131y\u0131z. Bu oturumda Lemi bizlere temiz kod tasar\u0131m\u0131 yapabilmek i\u00e7in gereken ad\u0131mlardan, \u00e7o\u011funlukla yanl\u0131\u015f bilinen ger\u00e7eklerden ve bir yaz\u0131l\u0131mc\u0131 i\u00e7in ustala\u015fmaya giden yolculuktan bahsedecek.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "Türkçe"
+      }
+    ]
+  },
+  {
+    "name": "Mark Baker",
+    "title": "Lead Developer at Paybreak; author of PHPOffice",
+    "bio": "Mark is Lead\/Senior Developer at Paybreak, a fintech company based in Altrincham near Manchester, UK. He has worked in the computer software industry since before symbolics.com was registered as a domain name, before \"cyberspace\" was first mentioned in fiction, when Linus Torvalds and Rasmus Lerdorf were still at high school, and Mrs. Zuckerberg had yet to give birth to a bouncing baby social network enabler; and has developed for the Web in many different languages since the days when the Tim Berners-Lee's creation comprised less than 1,000 sites. Over those years he has contributed to a number of open source projects: including a minor submission to PHP's SPL. Currently he is coordinator and lead developer for the PHPExcel library, and a coordinator and developer on the PHPOffice library suite. Most recently, he has been working on new datastructures such as Tries, Quadtrees and Matrices; hoping that he'll eventually be able to get them included in SPL. His particular interests include PHP integration with office suites, Generators, Textual analysis, Geodata and geographic information systems, and \"big data\" and data analysis.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/mark.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/Mark_Baker",
+      "github": "https:\/\/github.com\/MarkBaker",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/mark-baker-171572b"
+    },
+    "sessions": [
+      {
+        "title": "Testing the Untestable",
+        "description": "When we need to write unit tests for an existing codebase - particularly for older legacy code, or even for badly designed modern code - we sometimes come upon classes and methods that simply cannot be tested, or where the effort to write tests far exceeds the effort than it probably took to write the code in the first place. In this presentation we'll examine some of the \"code smells\" that make it difficult to write tests - and look at why they cause problems - before looking at the options available to make them testable.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Mehmet Ince",
+    "title": "Managing Partner at INVICTUS \/ PRODAFT",
+    "bio": "Renowned as one of the leading figures of web application security, Mehmet \u0130NCE's involvement with security dates back to the beginning of 2000s. Primarily working as a researcher regardless of his role and career in different organizations and companies, Mehmet has continued to publish new and interesting vulnerabilities on a wide variety of technology and infrastructures. In terms of his corporate life, INCE started his career as a penetration tester in various security companies during his junior college years. When he reached his senior year in Sakarya University, he has partnered up with his old-time friends for new security ventures. In the meantime, he has worked for Sony as a senior security engineer and penetration tester. When his own ventures started to flourish, he came back home and focused on building these fairly young and promising companies. Currently working as one of the managing partners of INVICTUS (one of the leading security companies of EMEA region) and PRODAFT SARL (a swiss-based Cyber Intelligence company); Mehmet continues to build and operate his team of skilled researchers. Despite his busy schedule, Mehmet also spends a considerable amount of time, sharing his experience and contributing to the security community by means of his articles on pentest.blog which he runs together with his team.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/mehmet.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/mdisec",
+      "github": "https:\/\/github.com\/mmetince",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/mehmetdursunince"
+    },
+    "sessions": [
+      {
+        "title": "Hey developers, you are doing wrong. Let's simplify XSS",
+        "description": "G\u00fcn\u00fcm\u00fcz web uygulama g\u00fcvenli\u011fi ile ilgili hususlar aras\u0131nda y\u0131llard\u0131r pop\u00fclerli\u011fini kaybetmeyen XSS zafiyetlerini anlamak tahmin edilenden \u00e7ok daha zordur. Bu sunum i\u00e7eri\u011finde, XSS zafiyetlerinin olu\u015fum s\u00fcrecine ve \u00f6zel ger\u00e7ek hayat \u00f6rneklerine yer verilecektir. Ard\u0131ndan nihai olarak yaz\u0131l\u0131m geli\u015ftiricilerin, uygulamas\u0131 gereken metodolojiye de\u011finilecektir.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "Türkçe"
+      }
+    ]
+  },
+  {
+    "name": "Mehmet Sinan Toktay",
+    "title": "CTO at Insider",
+    "bio": "As the Chief Technology Officer, Sinan is responsible for Insider\u2019s product execution strategy. He is an expert in developing scalable systems and maintaining our top-notch engineering power. Prior to joining Insider, Sinan gained experience in secure development of cloud applications and worked as a software consultant at Oracale. He was also granted 2nd place for his e-voting by the IBM Software Academy. Sinan was selected as an Endeavor Entrepreneur in ISP-2014. He holds a BSc Computer Engineering degree from Istanbul Technical University and continues his Master\u2019s degree in International Business Administration.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/sinan.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/msinantoktay",
+      "github": "https:\/\/github.com\/msinantoktay",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/mehmet-sinan-toktay-19287348\/"
+    },
+    "sessions": [
+      {
+        "title": "Insider'da ayda 5 milyar Web Push bildirimini nasıl gönderiyoruz?",
+        "description": "Insider'in kilit ürünlerinin başında \"Web Push Bildirimleri\" geliyor ve 350'den fazla müşteriye ayda 5 milyardan fazla bildirim gönderiyoruz. Bu sunumda ajandamız şu şekilde olacak; Web Push nedir ve ne gibi türleri vardır? Kullandığımız teknolojileri nasıl ölçeklendiriyoruz? Zamana karşı nasıl yarışıyor ve 1 dakikanın altında 5 milyon web push'u gönderiyoruz? PHP 7.1'e geçiş yaptığımızda ne gibi metriklerle karşılaştık? Oturumda bu soruları cevaplandırıyor olacağız.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "Türkçe"
+      }
+    ]
+  },
+  {
+    "name": "Michael Heap",
+    "title": "Developer Advocate at Nexmo",
+    "bio": "Michael is a polyglot software engineer, committed to reducing complexity in systems and making them more predictable. Working with a variety of languages and tools, he shares his technical expertise to audiences all around the world at user groups and conferences. Day to day, Michael is a developer advocate at Nexmo. He spends his time learning, teaching and writing about all kinds of technology. When not immersed in technology, you'll find him either playing various board games or hiking through the countryside.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/michael.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/mheap",
+      "github": "https:\/\/github.com\/mheap",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/mheap"
+    },
+    "sessions": [
+      {
+        "title": "Zero to Jenkins: Automatic builds + deploys",
+        "description": "Jenkins has been one of the most popular continuous integration systems out there for many years. It was perfectly functional, but the UI wasn't the friendliest in the world and configuring jobs through a UI or XML files was just painful. In late 2016, Jenkins finally made it to version 2.0 which brought a huge number of improvements. From the new Blue Ocean UI to being able to define build configurations in your repo, it's a massive step up from version 1. In this talk, we'll go from an empty machine to a Jenkins install that automatically detects repos, branches and pull requests and builds them according to the Jenkinsfile in each branch. We'll be running tests, linting and packaging applications in parallel where possible, and even running things on Linux, Windows and MacOS all at the same time!",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Miro Svrtan",
+    "title": "Developer at TicketSwap",
+    "bio": "Veteran of PHP affairs, BDD practitioner, DevOps enthusiast I started using PHP as a student, back in 1999. At first I worked as a one man band web developer and from there I progressed, via focusing on PHP development in a team environment, to be a senior dev, tech lead & technical analyst. I found much more happiness doing backend stuff so I focus on scalable Backends and DevOps tasks this days.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/miro.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/msvrtan",
+      "github": "https:\/\/github.com\/msvrtan",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/msvrtan"
+    },
+    "sessions": [
+      {
+        "title": "Tools and traits to keep your code at level",
+        "description": "It's really hard to avoid broken window syndrome when developing: legacy code from ages might not be up to standards of today and often developers use it as excuse when developing new features. By introducing some code style enforecement tools we can get rid of 'there should be a space there' code reviews, while static analysis tools can help us not only locate some possible bugs in existing code but help us avoid new ones as well. But it's not all in the toolset, we need to build some traits in our teams to understand the importance of good code quality and keeping it on the level as we go.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Mustafa Ileri",
+    "title": "R&D Team Lead at Zingat.com",
+    "bio": "",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/mustafa.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/mustafaileri",
+      "github": "https:\/\/github.com\/mustafaileri",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/mustafaileri"
+    },
+    "sessions": [
+      {
+        "title": "PHP Projelerinde Test, CI ve CD S\u00fcre\u00e7leri",
+        "description": "Bir PHP projesini testleri ile beraber Docker yard\u0131m\u0131 ile sanalla\u015ft\u0131rma ve izole ortamda \u00e7al\u0131\u015ft\u0131rarak CI ve CD ara\u00e7lar\u0131 ile build olu\u015fturarak deployment gibi s\u00fcre\u00e7leri otomatize etme süreçlerine de\u011finilecek.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "Türkçe"
+      }
+    ]
+  },
+  {
+    "name": "Pascal Birchler",
+    "title": "WordPress core committer",
+    "bio": "Pascal is a student, software engineer, and public speaker based in Zurich, Switzerland. As a WordPress core committer he's a very active community member. Living in a multilingual country, Pascal has a keen interest in internationalization and localization.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/pascal.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/swissspidy",
+      "github": "https:\/\/github.com\/swissspidy",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/swissspidy"
+    },
+    "sessions": [
+      {
+        "title": "On Internationalization and Localization",
+        "description": "As developers, we try to follow best practices in our daily work. One such best practice is internationalization, a term that's used a lot in the ever globalizing world in which we live. However, it's often not fully understood or not used to its full extent. In this presentation, I'm going to explain the concept behind internationalization, localization, and their benefits. I will show how culture influences the user's behaviour and why we need to do more than just \"making things translatable\". For example, I18N is also about date formats, text direction, meaning of symbols, and even humor. Internationalization has a massive impact on user acceptance and usability. I will highlight existing tools, interfaces, and best practices to get I18N right in the UIs we create and the code we write.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Philipp Krenn",
+    "title": "Developer Advocate at Elastic",
+    "bio": "Philipp is part of the infrastructure team and a developer advocate at Elastic. He is frequently talking about full-text search, databases, operations, and security. Additionally, he is organizing multiple meetups in Vienna.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/philipp.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/xeraa",
+      "github": "https:\/\/github.com\/xeraa",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/xeraa"
+    },
+    "sessions": [
+      {
+        "title": "Monitoring of Your PHP Applications",
+        "description": "\"Every outage is like a murder mystery\" is a common complaint. But it doesn't have to be! This talk gives an overview on how to monitor PHP applications from all possible sides. We dive into: * System metrics: Keep track of network traffic and system load. * Application metrics: Gather metrics of nginx or Apache, php-fpm, and MySQL. * Application logs: Collect logs in a structured format or parse them to extract all the relevant information. * Uptime monitoring: Ping services and actively monitor their availability and response time. And we will do all of that live since it is so easy and much more interactive that way.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Tobias Nyholm",
+    "title": "CTO at Happyr, Symfony core team",
+    "bio": "Tobias is a software entrepreneur and have spent many years working within the web development ecosystem. He is organizer of Swedish PHP meetups, co-host of the Sound of Symfony podcast and a public speaker and Symfony core team member. He has written articles for php[architect], sitepoint and is a certified Symfony developer. Tobias is actively maintaining httplug.io, guzzle, buzz, php-geocoder, KnpGithub API client, Maingun API client, LinkedIn API client, Neo4j bundle and many more. He also writes a PSR for HTTP clients.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/tobias.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/tobiasnyholm",
+      "github": "https:\/\/github.com\/Nyholm",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/tobiasnyholm"
+    },
+    "sessions": [
+      {
+        "title": "Deep dive into Symfony 4 internals",
+        "description": "Symfony is a request and response framework. But what about all that magic that happens around your code? How does security work? Why isn\u2019t autowring slowing things down? And how is it that symfony components can be so decoupled but sill play so well together? I will show you the symfony internals This talk will go over the architecture of Symfony. We will follow the request and the response paths throw the framework. We will do some stops at the components that are more awesome than others. This talk is perfect for you who been working with Symfony or Laravel before. But if you never touched a framework before, dont worry. You will still learn a lot from this talk.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "English"
+      }
+    ]
+  },
+  {
+    "name": "Ziyahan Albeniz",
+    "title": "Security Researcher at Netsparker",
+    "bio": "1986 Istanbul. He graduated Computer Programming at Sakarya University. Works in Netsparker as a security researcher. He continues his work with mentorship of Ferruh Mavituna. He reported issues to alot of big company and he has been located these companies` hall of fame. His articles and researches is published on Netsparker Turkey Security Blog and he prepares and presents to his security podcast called Klavye Delikanl\u0131lar\u0131 with Mustafa Yalcin.",
+    "avatar": "http:\/\/2018.test\/assets\/images\/speakers\/ziyahan.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/ziyaxanalbeniz",
+      "github": "https:\/\/github.com\/ziyahan",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/ziyahanalbeniz"
+    },
+    "sessions": [
+      {
+        "title": "OWASP Proactive Controls",
+        "description": "Yaz\u0131l\u0131m geli\u015ftiriciler, g\u00fcvenli yaz\u0131l\u0131m geli\u015ftirme ve Demokles'in K\u0131l\u0131c\u0131 gibi tepelerinde sallanan deadline k\u0131l\u0131\u00e7lar\u0131yla maalesef bu hususta yeterli performans\u0131 g\u00f6steremiyorlar. Kullan\u0131lan ara\u00e7lar\u0131n, frameworklerin g\u00fcvenlik duyarl\u0131l\u0131klar\u0131n zay\u0131f olmas\u0131 ya da varsay\u0131lan olarak bu tedbirleri desteklemiyor olu\u015flar\u0131 da i\u015fin cabas\u0131. Sunumda \u00f6zetle Proactive Controls maddelerini de\u011ferlendirecek ve Proactive Controls maddelerinin, OWASP Top 10 Kritik Zafiyetler Listesi'ndeki hangi derde deva oldu\u011funu g\u00f6rece\u011fiz.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 1,
+        "language": "Türkçe"
+      }
+    ]
+  }
+]
