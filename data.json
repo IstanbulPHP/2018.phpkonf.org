@@ -370,28 +370,6 @@
     ]
   },
   {
-    "name": "Miro Svrtan",
-    "title": "Developer at TicketSwap",
-    "bio": "Veteran of PHP affairs, BDD practitioner, DevOps enthusiast I started using PHP as a student, back in 1999. At first I worked as a one man band web developer and from there I progressed, via focusing on PHP development in a team environment, to be a senior dev, tech lead & technical analyst. I found much more happiness doing backend stuff so I focus on scalable Backends and DevOps tasks this days.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/miro.jpg",
-    "social": {
-      "twitter": "https:\/\/twitter.com\/msvrtan",
-      "github": "https:\/\/github.com\/msvrtan",
-      "linkedin": "https:\/\/www.linkedin.com\/in\/msvrtan"
-    },
-    "sessions": [
-      {
-        "title": "Tools and traits to keep your code at level",
-        "description": "It's really hard to avoid broken window syndrome when developing: legacy code from ages might not be up to standards of today and often developers use it as excuse when developing new features. By introducing some code style enforecement tools we can get rid of 'there should be a space there' code reviews, while static analysis tools can help us not only locate some possible bugs in existing code but help us avoid new ones as well. But it's not all in the toolset, we need to build some traits in our teams to understand the importance of good code quality and keeping it on the level as we go.",
-        "keynote": 0,
-        "day": 1,
-        "track": 1,
-        "session": 1,
-        "language": "English"
-      }
-    ]
-  },
-  {
     "name": "Mustafa Ileri",
     "title": "R&D Team Lead at Zingat.com",
     "bio": "1983 İstanbul doğumluyum. Kocaeli Üniversitesi Elektrik Öğretmenliği mezunuyum. Yaklaşık olarak 13 yıldır profesyonel olarak yazılım geliştirme konusunda farklı pozisyonlarda çalışım. Favori programlama dillerim; PHP, Python. Bununla beraber kullanmayı sevdiğim frameworkler Symfony, Django, Flask. Web dünyasının yanında, son 1 yıldır data mining ve veri mühendisliği konuları üzerinde çalışıyorum.",
