@@ -22,7 +22,8 @@
     <![endif]-->
 </head>
 
-<body>
+<div>
+
 <section id="hero" class="hero-section bg2 bg-cover light-text">
     <div class="heading-block centered-block align-center" style="min-height: 700px">
         <div class="container">
@@ -156,6 +157,7 @@
     </div>
 </section>
 
+<div id="app">
 <section id="speakers" class="section align-center">
     <div class="container">
         <h3>Speakers</h3>
@@ -163,7 +165,7 @@
         <br/>
         <br/>
 
-        <div id="speakers" class="col-sm-4" v-for="item in randomList(speakers).slice(0, 6)">
+        <div class="col-sm-4" v-for="item in speakers">
             <div class="speaker">
                 <div class="photo-wrapper rounded"><img :src="item.avatar"
                                                         :alt="item.name" class="img-responsive"></div>
@@ -187,19 +189,681 @@
     </div>
 </section>
 
-<section id="schedule" class="section align-center">
+<section id="schedule" class="section schedule-section align-center">
     <div class="container">
         <h3>Schedule</h3>
-        <p class="text-alt">We haven't released full schedule yet, schedule will be here soon!</p>
-        <br/>
-        <br/>
+        <br>
+        <br>
 
-        <div class="clearfix">
-            <a href="speakers.html" class="btn">VIEW ALL SESSIONS</a>
+        <!-- Schedule start -->
+        <div class="schedule">
+
+            <!-- Navigation by day start -->
+            <div class="nav-wrapper"><span class="nav-current"><h5 class="highlight">Day 1</h5><p class="text-alt">20/05/2018</p></span><ul class="nav nav-schedule">
+                <li class="active"><a href="#day1" data-toggle="tab"><h5 class="highlight">Day 1</h5><p class="text-alt">20/05/2018</p></a></li>
+                <li class=""><a href="#day2" data-toggle="tab"><h5 class="highlight">Day 2</h5><p class="text-alt">21/05/2018</p></a></li>
+            </ul></div>
+            <!-- Navigation by day end -->
+
+            <!-- First level content start -->
+            <div class="tab-content">
+
+                <!-- Day 1 content start -->
+                <div id="day1" class="tab-pane fade active in">
+
+                    <!-- Navigation by auditorium start -->
+                    <div class="nav-wrapper"><span class="nav-current">Auditorium 1</span><ul class="nav nav-schedule">
+                        <li class="active"><a href="#day1_auditorium1" data-toggle="tab">TRACK 1</a></li>
+                        <li><a href="#day1_auditorium2" data-toggle="tab">INSIDER TRACK</a></li>
+                    </ul></div>
+                    <!-- Navigation by auditorium start -->
+
+                    <!-- Second level content start -->
+                    <div class="tab-content tab-content-schedule">
+
+                        <!-- Auditorium 1 content start -->
+                        <div id="day1_auditorium1" class="tab-pane fade active in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day1_auditorium1_timeline">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item" v-for="(session, key) in sessions()">
+                                    <div class="lecture-icon-wrapper"></div>
+                                    <a data-toggle="collapse" data-parent="#day1_auditorium1_timeline" :href="'#day1_auditorium1_time_' + key" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>5:40 PM</strong>
+                                        <h6 class="title">{{ session.title }}<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div :id="'day1_auditorium1_time_' + key" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 1 content end -->
+
+                        <!-- Auditorium 2 content start -->
+                        <div id="day1_auditorium2" class="tab-pane fade in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day1_auditorium2_timeline">
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 2 content end -->
+
+                    </div>
+                    <!-- Second level content end -->
+
+                </div>
+                <!-- Day 1 content end -->
+
+                <!-- Day 2 content start -->
+                <div id="day2" class="tab-pane fade">
+
+                    <!-- Navigation by auditorium start -->
+                    <div class="nav-wrapper"><span class="nav-current">Auditorium 1</span><ul class="nav nav-schedule">
+                        <li class="active"><a href="#day2_auditorium1" data-toggle="tab">Auditorium 1</a></li>
+                        <li><a href="#day2_auditorium2" data-toggle="tab">Auditorium 2</a></li>
+                    </ul></div>
+                    <!-- Navigation by auditorium end -->
+
+                    <!-- Second level content start -->
+                    <div class="tab-content tab-content-schedule">
+
+                        <!-- Auditorium 1 content start -->
+                        <div id="day2_auditorium1" class="tab-pane fade active in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day2_auditorium1_timeline">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day2_auditorium1_timeline" href="#day2_auditorium1_time1" class="schedule-item-toggle">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>2:20 PM</strong>
+                                        <h6 class="title">How to organize great events<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day2_auditorium1_time1" class="panel-collapse collapse in schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day2_auditorium1_timeline" href="#day2_auditorium1_time3" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>7:00 PM</strong>
+                                        <h6 class="title">Close your eyes around the world<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day2_auditorium1_time3" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day2_auditorium1_timeline" href="#day2_auditorium1_time4" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>7:40 PM</strong>
+                                        <h6 class="title">Passion and people<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day2_auditorium1_time4" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 1 content end -->
+
+                        <!-- Auditorium 2 content start -->
+                        <div id="day2_auditorium2" class="tab-pane fade in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day2_auditorium2_timeline">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day2_auditorium2_timeline" href="#day2_auditorium2_time1" class="schedule-item-toggle">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>2:20 PM</strong>
+                                        <h6 class="title">How to organize great events<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day2_auditorium2_time1" class="panel-collapse collapse in schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 2 content end -->
+
+                    </div>
+                    <!-- Second level content end -->
+
+                </div>
+                <!-- Day 2 content end -->
+
+                <!-- Day 3 content start -->
+                <div id="day3" class="tab-pane fade in">
+
+                    <!-- Navigation by auditorium start -->
+                    <div class="nav-wrapper"><span class="nav-current">Auditorium 1</span><ul class="nav nav-schedule">
+                        <li class="active"><a href="#day3_auditorium1" data-toggle="tab">Auditorium 1</a></li>
+                        <li><a href="#day3_auditorium2" data-toggle="tab">Auditorium 2</a></li>
+                        <li><a href="#day3_auditorium3" data-toggle="tab">Auditorium 3</a></li>
+                    </ul></div>
+                    <!-- Navigation by auditorium end -->
+
+                    <!-- Second level content start -->
+                    <div class="tab-content tab-content-schedule">
+
+                        <!-- Auditorium 1 content start -->
+                        <div id="day3_auditorium1" class="tab-pane fade active in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day3_auditorium1_timeline">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day3_auditorium1_timeline" href="#day3_auditorium1_time1" class="schedule-item-toggle">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>2:20 PM</strong>
+                                        <h6 class="title">How to organize great events<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day3_auditorium1_time1" class="panel-collapse collapse in schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day3_auditorium1_timeline" href="#day3_auditorium1_time2" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>5:40 PM</strong>
+                                        <h6 class="title">Scaling into crowded space<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day3_auditorium1_time2" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 1 content end -->
+
+                        <!-- Auditorium 2 content start -->
+                        <div id="day3_auditorium2" class="tab-pane fade in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day3_auditorium2_timeline">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day3_auditorium2_timeline" href="#day3_auditorium2_time1" class="schedule-item-toggle">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>2:20 PM</strong>
+                                        <h6 class="title">How to organize great events<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day3_auditorium2_time1" class="panel-collapse collapse in schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 2 content end -->
+
+                        <!-- Auditorium 3 content start -->
+                        <div id="day3_auditorium3" class="tab-pane fade in">
+
+                            <div class="schedule-item">No schedule yet.</div>
+
+                        </div>
+                        <!-- Auditorium 3 content end -->
+
+                    </div>
+                    <!-- Second level content end -->
+
+                </div>
+                <!-- Day 3 content end -->
+
+                <!-- Day 4 content start -->
+                <div id="day4" class="tab-pane fade in">
+
+                    <!-- Navigation by auditorium start -->
+                    <div class="nav-wrapper"><span class="nav-current">Auditorium 1</span><ul class="nav nav-schedule">
+                        <li class="active"><a href="#day4_auditorium1" data-toggle="tab">Auditorium 1</a></li>
+                        <li><a href="#day4_auditorium2" data-toggle="tab">Auditorium 2</a></li>
+                        <li><a href="#day4_auditorium3" data-toggle="tab">Auditorium 3</a></li>
+                    </ul></div>
+                    <!-- Navigation by auditorium start -->
+
+                    <!-- Second level content start -->
+                    <div class="tab-content tab-content-schedule">
+
+                        <!-- Auditorium 1 content start -->
+                        <div id="day4_auditorium1" class="tab-pane fade active in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day4_auditorium1_timeline">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <span class="fa fa-cutlery"></span>
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day4_auditorium1_timeline" href="#day4_auditorium1_time1" class="schedule-item-toggle">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>2:20 PM</strong>
+                                        <h6 class="title">How to organize great events<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day4_auditorium1_time1" class="panel-collapse collapse in schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper"></div>
+                                    <a data-toggle="collapse" data-parent="#day4_auditorium1_timeline" href="#day4_auditorium1_time2" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>5:40 PM</strong>
+                                        <h6 class="title">Scaling into crowded space<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day4_auditorium1_time2" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day4_auditorium1_timeline" href="#day4_auditorium1_time3" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>7:00 PM</strong>
+                                        <h6 class="title">Close your eyes around the world<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day4_auditorium1_time3" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day4_auditorium1_timeline" href="#day4_auditorium1_time4" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>7:40 PM</strong>
+                                        <h6 class="title">Passion and people<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day4_auditorium1_time4" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 1 content end -->
+
+                        <!-- Auditorium 2 content start -->
+                        <div id="day4_auditorium2" class="tab-pane fade in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day4_auditorium2_timeline">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day4_auditorium2_timeline" href="#day4_auditorium2_time1" class="schedule-item-toggle">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>2:20 PM</strong>
+                                        <h6 class="title">How to organize great events<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day4_auditorium2_time1" class="panel-collapse collapse in schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day4_auditorium2_timeline" href="#day4_auditorium2_time2" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>5:40 PM</strong>
+                                        <h6 class="title">Scaling into crowded space<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day4_auditorium2_time2" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 2 content end -->
+
+                        <!-- Auditorium 3 content start -->
+                        <div id="day4_auditorium3" class="tab-pane fade in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day4_auditorium3_timeline">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day4_auditorium3_timeline" href="#day4_auditorium3_time1" class="schedule-item-toggle">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>2:20 PM</strong>
+                                        <h6 class="title">How to organize great events<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day4_auditorium3_time1" class="panel-collapse collapse in schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 3 content end -->
+
+                    </div>
+                    <!-- Second level content end -->
+
+                </div>
+                <!-- Day 4 content end -->
+
+                <!-- Day 5 content start -->
+                <div id="day5" class="tab-pane fade in">
+
+                    <!-- Navigation by auditorium start -->
+                    <div class="nav-wrapper"><span class="nav-current">Auditorium 1</span><ul class="nav nav-schedule">
+                        <li class="active"><a href="#day5_auditorium1" data-toggle="tab">Auditorium 1</a></li>
+                        <li><a href="#day5_auditorium2" data-toggle="tab">Auditorium 2</a></li>
+                        <li><a href="#day5_auditorium3" data-toggle="tab">Auditorium 3</a></li>
+                    </ul></div>
+                    <!-- Navigation by auditorium end -->
+
+                    <!-- Second level content start -->
+                    <div class="tab-content tab-content-schedule">
+
+                        <!-- Auditorium 1 content start -->
+                        <div id="day5_auditorium1" class="tab-pane fade active in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day5_auditorium1_timeline">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day5_auditorium1_timeline" href="#day5_auditorium1_time1" class="schedule-item-toggle">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>2:20 PM</strong>
+                                        <h6 class="title">How to organize great events<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day5_auditorium1_time1" class="panel-collapse collapse in schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day5_auditorium1_timeline" href="#day5_auditorium1_time3" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>7:00 PM</strong>
+                                        <h6 class="title">Close your eyes around the world<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day5_auditorium1_time3" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day5_auditorium1_timeline" href="#day5_auditorium1_time4" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>7:40 PM</strong>
+                                        <h6 class="title">Passion and people<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day5_auditorium1_time4" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 1 content end -->
+
+                        <!-- Auditorium 2 content start -->
+                        <div id="day5_auditorium2" class="tab-pane fade in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day5_auditorium2_timeline">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day5_auditorium2_timeline" href="#day5_auditorium2_time1" class="schedule-item-toggle">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>2:20 PM</strong>
+                                        <h6 class="title">How to organize great events<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day5_auditorium2_time1" class="panel-collapse collapse in schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 2 content end -->
+
+                        <!-- Auditorium 3 content start -->
+                        <div id="day5_auditorium3" class="tab-pane fade in">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" id="day5_auditorium3_timeline">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day5_auditorium3_timeline" href="#day5_auditorium3_time1" class="schedule-item-toggle">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>2:20 PM</strong>
+                                        <h6 class="title">How to organize great events<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day5_auditorium3_time1" class="panel-collapse collapse in schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day5_auditorium3_timeline" href="#day5_auditorium3_time2" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>5:40 PM</strong>
+                                        <h6 class="title">Scaling into crowded space<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day5_auditorium3_time2" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item">
+                                    <div class="lecture-icon-wrapper">
+                                        <img src="assets/img/speakers/speaker1.jpg" alt="" class="img-responsive">
+                                    </div>
+                                    <a data-toggle="collapse" data-parent="#day5_auditorium3_timeline" href="#day5_auditorium3_time4" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>7:40 PM</strong>
+                                        <h6 class="title">Passion and people<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div id="day5_auditorium3_time4" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+                                            <strong class="highlight speaker-name">Michael Lambert</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium 3 content end -->
+
+                    </div>
+                    <!-- Second level content end -->
+
+                </div>
+                <!-- Day 5 content end -->
+
+            </div>
+            <!-- First level content end -->
+
+        </div>
+        <!-- Schedule end -->
+
+        <div class="col-sm-12 align-center">
+            <a href="elements/schedule.html" target="_blank" class="btn btn-outline-clr btn-md">SCHEDULE STYLES</a>
         </div>
 
     </div>
+
 </section>
+</div>
 
 <section id="prices" class="section align-center">
     <div class="container">
@@ -433,6 +1097,7 @@
 <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js?ver=1"></script>
 <!--<![endif]-->
 
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
 <script src="app.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places&key=AIzaSyCdwGRqSLKdTXSBL8r7xoHy5z05877Cuss"></script>
@@ -444,5 +1109,5 @@
 <script type="text/javascript" src="assets/js/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="assets/js/modal-box.js"></script>
 <script type="text/javascript" src="assets/js/ventcamp.js"></script>
-</body>
+</div>
 </html>
