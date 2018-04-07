@@ -177,6 +177,7 @@
     </div>
 </section>
 
+<div id="app">
 <section id="speakers" class="section align-center">
     <div class="container">
         <h3>Speakers</h3>
@@ -184,7 +185,7 @@
         <br/>
         <br/>
 
-        <div id="speakers" class="col-sm-4" v-for="item in randomList(speakers).slice(0, 6)">
+        <div class="col-sm-4" v-for="item in speakers">
             <div class="speaker">
                 <div class="photo-wrapper rounded"><img :src="item.avatar"
                                                         :alt="item.name" class="img-responsive"></div>
@@ -208,19 +209,85 @@
     </div>
 </section>
 
-<section id="schedule" class="section align-center">
+<section id="schedule" class="section schedule-section align-center">
     <div class="container">
         <h3>Schedule</h3>
-        <p class="text-alt">We haven't released full schedule yet, schedule will be here soon!</p>
-        <br/>
-        <br/>
+        <br>
+        <br>
 
-        <div class="clearfix">
-            <a href="speakers.html" class="btn">VIEW ALL SESSIONS</a>
+        <!-- Schedule start -->
+        <div class="schedule">
+
+            <!-- Navigation by day start -->
+            <div class="nav-wrapper"><ul class="nav nav-schedule">
+                <li v-bind:class="{ active: day.isSelected }" v-for="day of days"><a v-bind:href="`#day${day.dayNumber}`" data-toggle="tab"><h5 class="highlight">Day {{ day.dayNumber }}</h5><p class="text-alt">{{ day.date }}</p></a></li>
+            </ul></div>
+            <!-- Navigation by day end -->
+
+            <!-- First level content start -->
+            <div class="tab-content">
+
+                <!-- Day content start -->
+                <div v-bind:id="`day${day.dayNumber}`" v-bind:class="{ active: day.isSelected, 'tab-pane fade in': true }" v-for="day of days">
+
+                    <!-- Navigation by auditorium start -->
+                    <div class="nav-wrapper"><ul class="nav nav-schedule">
+                        <li v-bind:class="{ active: track.isSelected }" v-for="track of day.tracks"><a v-bind:href="`#day${day.dayNumber}_auditorium${track.trackNumber}`" data-toggle="tab">TRACK {{ track.trackNumber }}</a></li>
+                    </ul></div>
+                    <!-- Navigation by auditorium start -->
+
+                    <!-- Second level content start -->
+                    <div class="tab-content tab-content-schedule">
+
+                        <!-- Auditorium content start -->
+                        <div v-bind:id="`day${day.dayNumber}_auditorium${track.trackNumber}`" v-bind:class="{ active: track.isSelected, 'tab-pane fade in': true }" v-for="track of day.tracks">
+
+                            <!-- Accordion start -->
+                            <div class="panel-group" v-bind:id="`day${day.dayNumber}_auditorium${track.trackNumber}_timeline`">
+
+                                <!-- Lecture start -->
+                                <div class="panel schedule-item" v-for="session of getSchedule(day.dayNumber, track.trackNumber)">
+                                    <div class="lecture-icon-wrapper"></div>
+                                    <a data-toggle="collapse" v-bind:data-parent="`#day${day.dayNumber}_auditorium${track.trackNumber}_timeline`" v-bind:href="`#day${day.dayNumber}_auditorium${track.trackNumber}_time_${session.sessionNumber}`" class="schedule-item-toggle collapsed">
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>{{ session.time }}</strong>
+                                        <strong class="time highlight"><span class="icon icon-documents-bookmarks-01"></span>{{ session.language }}</strong>
+                                        <h6 class="title">{{ session.title }}<i class="icon icon-arrows-06"></i></h6>
+                                    </a>
+                                    <div v-bind:id="`day${day.dayNumber}_auditorium${track.trackNumber}_time_${session.sessionNumber}`" class="panel-collapse collapse schedule-item-body">
+                                        <article>
+                                            <p class="description">{{ session.description }}</p>
+                                            <strong class="highlight speaker-name">{{ session.speaker }}</strong>
+                                        </article>
+                                    </div>
+                                </div>
+                                <!-- Lecture end -->    
+
+                            </div>
+                            <!-- Accordion end -->
+
+                        </div>
+                        <!-- Auditorium content end -->
+
+                    </div>
+                    <!-- Second level content end -->    
+
+                </div>
+                <!-- Day content end -->
+    
+            </div>
+            <!-- First level content end -->
+
+        </div>
+        <!-- Schedule end -->
+
+        <div class="col-sm-12 align-center">
+            <a href="elements/schedule.html" target="_blank" class="btn btn-outline-clr btn-md">SCHEDULE STYLES</a>
         </div>
 
     </div>
+
 </section>
+</div>
 
 <section id="prices" class="section align-center">
     <div class="container">
@@ -454,8 +521,9 @@
 <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js?ver=1"></script>
 <!--<![endif]-->
 
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
-<script src="app.js"></script>
+<script src="./app.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places&key=AIzaSyCdwGRqSLKdTXSBL8r7xoHy5z05877Cuss"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/toastr.min.js"></script>
@@ -465,5 +533,6 @@
 <script type="text/javascript" src="assets/js/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="assets/js/modal-box.js"></script>
 <script type="text/javascript" src="assets/js/ventcamp.js"></script>
-</body>
+
+</div>
 </html>

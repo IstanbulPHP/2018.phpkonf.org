@@ -57,6 +57,7 @@
     </div>
 </header>
 
+<div id="app">
 <section id="speakers" class="section align-center">
     <div class="container">
 
@@ -64,7 +65,7 @@
         <p>A-Z ordered</p>
         <hr/>
 
-        <div class="media" id="speakers" v-for="item in speakers">
+        <div class="media" v-for="item in speakers">
             <div class="media-left">
                 <a href="#">
                     <img style="margin-right: 15px;" width="150px" height="150px" align="left" :alt="item.name" class="img img-circle" :src="item.avatar">
@@ -95,6 +96,7 @@
 
     </div>
 </section>
+</div>
 
 <section class="footer">
     <div class="footer-base">
