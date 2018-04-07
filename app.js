@@ -3,8 +3,27 @@ var dataURL = 'data.json';
 var App = new Vue({
     el: '#app',
     data: {
+        days: [
+            {
+                dayNumber: 1,
+                date: '20/05/2018',
+                isSelected: true,
+                tracks: [
+                    { trackNumber: 1, isSelected: true },
+                    { trackNumber: 2, isSelected: false },
+                ],
+            },
+            {
+                dayNumber: 2,
+                date: '21/05/2018',
+                isSelected: false,
+                tracks: [
+                    { trackNumber: 1, isSelected: true },
+                    { trackNumber: 2, isSelected: false },
+                ],
+            },
+        ],
         speakers: [],
-        schedule: []
     },
     mounted() {
         axios.get(
@@ -16,14 +35,29 @@ var App = new Vue({
         );
     },
     methods: {
-        sessions: function() {
-            for (i = 0; i < this.speakers; i++) {
-                for (j = 0; j < this.speakers[i].schedule; j++) {
-                    this.schedule.push(this.speakers[i].schedule[j]);
+        getSchedule: function (day, track) {
+            const schedules = [];
+
+            const speakersWithSessions = this.speakers.filter(x => x.sessions.find(y => y.day === day && y.track === track) !== undefined);
+
+            for (const speakerWithSessions of speakersWithSessions) {
+                for (const session of speakerWithSessions.sessions) {
+                    const schedule = {
+                        sessionNumber: session.session,
+                        time: session.time,
+                        language: session.language,
+                        title: session.title,
+                        description: session.description,
+                        speaker: speakerWithSessions.name,
+                    };
+
+                    schedules.push(schedule);
                 }
             }
 
-            return this.schedule;
+            schedules.sort((a, b) => a.sessionNumber - b.sessionNumber);
+
+            return schedules;
         },
     },
     computed: {
