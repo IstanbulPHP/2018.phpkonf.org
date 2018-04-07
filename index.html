@@ -35,21 +35,19 @@
 
 <body>
 
-<section id="hero" class="hero-section bg1 bg-cover window-height align-center light-text">
+<section id="hero" class="hero-section bg2 bg-cover light-text overlay gradient-overlay">
     <ul class="socials-nav">
-        <li class="socials-nav-item"><a href="#"><span class="fa fa-twitter"></span></a></li>
-        <li class="socials-nav-item"><a href="#"><span class="fa fa-facebook"></span></a></li>
-        <li class="socials-nav-item"><a href="#"><span class="fa fa-flickr"></span></a></li>
-        <li class="socials-nav-item"><a href="#"><span class="fa fa-instagram"></span></a></li>
+        <li class="socials-nav-item"><a target="_blank" href="https://twitter.com/istanbulphp"><span class="fa fa-twitter"></span></a></li>
+        <li class="socials-nav-item"><a target="_blank" href="https://www.flickr.com/photos/150061759@N02/sets/72157681171150484/"><span class="fa fa-flickr"></span></a></li>
+        <li class="socials-nav-item"><a target="_blank" href="https://www.facebook.com/phpkonf/"><span class="fa fa-facebook"></span></a></li>
     </ul>
     <div class="heading-block centered-block align-center">
         <div class="container">
-            <h5 class="heading-alt" style="margin-bottom: 8px;"><span class="fa fa-calendar-o"></span>20.21.may.2018
-                <span class="fa fa-map-marker" style="margin-left: 14px;"></span>Istanbul, TURKEY</h5>
+            <h5 class="heading-alt" style="margin-bottom: 8px;"><span class="fa fa-calendar-o base-clr-txt"></span>20-21.may <span class="fa fa-map-marker base-clr-txt" style="margin-left: 14px;"></span>Istanbul</h5>
             <h1 class="extra-heading">PHPKonf</h1>
-            <h6 class="thin base-font">In May, two-days long multi-track PHP festival. In the ancient city!</h6>
+            <h6 class="thin base-font">two-days long multi-track PHP festival, in the ancient city!</h6>
             <div class="btns-container">
-                <a href="#" class="btn btn-md" data-modal-link="email-ticket">GET TICKETS</a>
+                <a href="https://www.biletino.com/event/eventdetail/4733?l=en" class="btn btn-md" target="_blank">BUY TICKET</a>
             </div>
         </div>
     </div>
@@ -60,8 +58,8 @@
         <div class="container">
             <div class="col-sm-2 col-xs-12 navigation-header">
                 <a href="index.html" class="logo">
-                    <img src="assets/images/logo.png" alt="VentCamp" class="retina-hide">
-                    <img src="assets/images/logo.png" alt="VentCamp" class="retina-show">
+                    <img src="assets/images/logo.png" alt="PHPKonf" width="55" height="17" class="retina-hide">
+                    <img src="assets/images/logo@2x.png" alt="PHPKonf" width="110" height="34" class="retina-show">
                 </a>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation"
                         aria-expanded="false" aria-controls="navigation">
@@ -185,7 +183,7 @@
         <br/>
         <br/>
 
-        <div class="col-sm-4" v-for="item in speakers">
+        <div class="col-sm-4" v-for="item in speakers.slice(0, 6)">
             <div class="speaker">
                 <div class="photo-wrapper rounded"><img :src="item.avatar"
                                                         :alt="item.name" class="img-responsive"></div>
@@ -279,11 +277,6 @@
 
         </div>
         <!-- Schedule end -->
-
-        <div class="col-sm-12 align-center">
-            <a href="elements/schedule.html" target="_blank" class="btn btn-outline-clr btn-md">SCHEDULE STYLES</a>
-        </div>
-
     </div>
 
 </section>

@@ -6935,19 +6935,19 @@ button[type="submit"] .loading {
     Theme styles
 ---------------------------------------------------------------------------- */
 .bg1 {
-  background-image: url("../img/backgrounds/bg1.jpg");
+  background-image: url("../images/bg.jpg");
 }
 .bg2 {
-  background-image: url("../images/rasmus.jpg");
+  background-image: url("../images/bg.jpg");
 }
 .bg3 {
-  background-image: url("../img/backgrounds/bg3.jpg");
+  background-image: url("../images/bg.jpg");
 }
 .bg4 {
-  background-image: url("../img/backgrounds/bg4.jpg");
+  background-image: url("../images/bg.jpg");
 }
 .bg5 {
-  background-image: url("../img/backgrounds/bg5.jpg");
+  background-image: url("../images/bg.jpg");
 }
 .gradient-overlay:before {
   background: #9001a5;
