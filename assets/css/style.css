@@ -2517,12 +2517,13 @@ li {
 .container {
   position: relative;
 }
+
 .bg-cover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom 160px;
   background-attachment: fixed;
   z-index: 1;
 }
@@ -2652,6 +2653,15 @@ li {
   }
   .fullwidth-column {
     padding: 50px 30px 35px;
+  }
+  .bg-cover {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    z-index: 1;
   }
 }
 @media (max-width: 767px) {
