@@ -59,12 +59,8 @@ var App = new Vue({
 
             return schedules;
         },
-    },
-    computed: {
-        randomList: function (rand) {
-            return rand.sort(function () {
-                return 0.5 - Math.random()
-            });
+        getRandomSpeakers: function() {
+            return _.sampleSize(this.speakers, 6);
         }
     }
 });

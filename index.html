@@ -58,7 +58,7 @@
         <div class="container">
             <div class="col-sm-2 col-xs-12 navigation-header">
                 <a href="index.html" class="logo">
-                    <img src="assets/images/logo.png" alt="PHPKonf" width="55" height="17" class="retina-hide">
+                    <img src="assets/images/logo@2x.png" alt="PHPKonf" width="110" height="34" class="retina-hide">
                     <img src="assets/images/logo@2x.png" alt="PHPKonf" width="110" height="34" class="retina-show">
                 </a>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation"
@@ -183,7 +183,7 @@
         <br/>
         <br/>
 
-        <div class="col-sm-4" v-for="item in speakers.slice(0, 6)">
+        <div class="col-sm-4" v-for="item in getRandomSpeakers()">
             <div class="speaker">
                 <div class="photo-wrapper rounded"><img :src="item.avatar"
                                                         :alt="item.name" class="img-responsive"></div>
@@ -247,8 +247,7 @@
                                 <div class="panel schedule-item" v-for="session of getSchedule(day.dayNumber, track.trackNumber)">
                                     <div class="lecture-icon-wrapper"></div>
                                     <a data-toggle="collapse" v-bind:data-parent="`#day${day.dayNumber}_auditorium${track.trackNumber}_timeline`" v-bind:href="`#day${day.dayNumber}_auditorium${track.trackNumber}_time_${session.sessionNumber}`" class="schedule-item-toggle collapsed">
-                                        <strong class="time highlight"><span class="icon icon-office-24"></span>{{ session.time }}</strong>
-                                        <strong class="time highlight"><span class="icon icon-documents-bookmarks-01"></span>{{ session.language }}</strong>
+                                        <strong class="time highlight"><span class="icon icon-office-24"></span>{{ session.time }}, {{ session.language }}</strong>
                                         <h6 class="title">{{ session.title }}<i class="icon icon-arrows-06"></i></h6>
                                     </a>
                                     <div v-bind:id="`day${day.dayNumber}_auditorium${track.trackNumber}_time_${session.sessionNumber}`" class="panel-collapse collapse schedule-item-body">
@@ -516,6 +515,7 @@
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js"></script>
 <script src="./app.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places&key=AIzaSyCdwGRqSLKdTXSBL8r7xoHy5z05877Cuss"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>

@@ -14,10 +14,10 @@
         "title": "Future Proof Frontend Coding: Decouple your dependencies",
         "description": "Almost every 6 months we have new frameworks or approaches in frontend world. Sometime your project\u2019s codebase become outdated before it is on productions according to new techs. These rapid changes are tiring and frustrated for developers\u2019 time to time. This talks helps to visualize how to setup your codebase for changes with wrapping your dependencies in a standardized way. So, your internal modules never aware of your external dependencies and even do not figure out if dependency changed or not at all. With the standardizing your wrappers, at any time you can update or change your external dependencies safely.",
         "keynote": 0,
-        "day": 1,
-        "track": 1,
+        "day": 2,
+        "track": 2,
         "session": 1,
-        "time": "09:00",
+        "time": "10:00",
         "language": "Türkçe"
       }
     ]
@@ -40,7 +40,7 @@
         "day": 1,
         "track": 1,
         "session": 2,
-        "time": "10:00",
+        "time": "11:30",
         "language": "English"
       },
       {
@@ -49,8 +49,8 @@
         "keynote": 0,
         "day": 1,
         "track": 1,
-        "session": 3,
-        "time": "11:00",
+        "session": 6,
+        "time": "16:30",
         "language": "English"
       }
     ]
@@ -71,9 +71,9 @@
         "description": "Oturumda 7.0 s\u00fcr\u00fcm\u00fcyle Gradual typing'e ge\u00e7i\u015f yapan PHP'in Defansif Programlama taraf\u0131nda getirdikleri; hata derleme, soyutlama, calisthenics, de\u011fi\u015fmez objeler ve statik analiz anlat\u0131larak uzun \u00f6m\u00fcrl\u00fc ve \u00f6zellikle a\u00e7\u0131k kaynak projelerde uygulanmas\u0131 gereken bilgiler payla\u015f\u0131lacak.",
         "keynote": 0,
         "day": 1,
-        "track": 1,
+        "track": 2,
         "session": 4,
-        "time": "12:00",
+        "time": "15:30",
         "language": "Türkçe"
       }
     ]
@@ -93,10 +93,10 @@
         "title": "GraphQL: Yeni Nesil Uygulama Geli\u015ftirme Aray\u00fczleri",
         "description": "Facebook taraf\u0131ndan geli\u015ftirilen GraphQL teknolojisinin detaylar\u0131n\u0131, kullan\u0131m alanlar\u0131n\u0131 ve PHP'de nas\u0131l kullan\u0131laca\u011f\u0131n\u0131 anlataca\u011f\u0131m\u0131z bir konu\u015fma olacak.",
         "keynote": 0,
-        "day": 1,
-        "track": 1,
-        "session": 5,
-        "time": "14:00",
+        "day": 2,
+        "track": 2,
+        "session": 3,
+        "time": "12:30",
         "language": "Türkçe"
       }
     ]
@@ -117,9 +117,9 @@
         "description": "I'm a gamer, and some of my favourite articles to read about computer games are those click-bait posts that read \"Ten Things I Wish I Knew When I Started Playing Pac-Man!\". When you're playing computer games, it's easy to miss things that are obvious to others, and these posts can help you to understand a simple game mechanic that you'd otherwise have not used. It got me thinking about the things in my own career that I found out about too late, or didn't fully understand until much later than I needed it. We'll cover both the technical and the conversational, so join me, as I introduce you to Things I Wish I Knew When I Started Playing \"Developer\".",
         "keynote": 1,
         "day": 1,
-        "track": 2,
+        "track": 1,
         "session": 1,
-        "time": "09:00",
+        "time": "10:00",
         "language": "English"
       },
       {
@@ -127,9 +127,9 @@
         "description": "The Zend Framework has evolved over the years from a full stack magical behemoth into an elegant set of interlocking libraries. But where do you start? Which framework should you use, Expressive or the MVC? What on earth is Diactoros? Join us as we take a look at exactly what exists in the Zend Framework eco-system with a brief introduction on how you can get started with the more interesting libraries.",
         "keynote": 1,
         "day": 1,
-        "track": 2,
-        "session": 2,
-        "time": "10:00",
+        "track": 1,
+        "session": 5,
+        "time": "15:30",
         "language": "English"
       }
     ]
@@ -149,10 +149,10 @@
         "title": "PostgreSQL is not your traditional SQL database",
         "description": "In this talk, we will discuss non-relational features of PostgreSQL such as JSONB datatype and full-text search. This will give you ideas about how to use PostgreSQL for modern software architectures.",
         "keynote": 0,
-        "day": 1,
-        "track": 2,
+        "day": 2,
+        "track": 1,
         "session": 3,
-        "time": "11:00",
+        "time": "12:30",
         "language": "English"
       }
     ]
@@ -172,10 +172,10 @@
         "title": "Bir Veri Analistinin Web Geli\u015ftirme Maceralar\u0131",
         "description": "Veri biliminin ortaya \u00e7\u0131kmas\u0131 ve b\u00fcy\u00fck miktarda veriyi analiz etme, yorumlama gereksiniminin artmas\u0131yla R dili daha pop\u00fcler hale geldi. Bununla birlikte istatistiksel hesaplar\u0131n yap\u0131ld\u0131\u011f\u0131 platformlar ve web aras\u0131nda daha p\u00fcr\u00fczs\u00fcz bir etkile\u015fime ihtiya\u00e7 duyulmaya ba\u015fland\u0131. Veriyi daha etkile\u015fimli bir kullan\u0131c\u0131 aray\u00fcz\u00fc ile analiz edebilen uygulamalar geli\u015ftirmek ve bu uygulamalar\u0131 cloud ortam\u0131nda \u00e7al\u0131\u015f\u0131r hale getirmek art\u0131k bir veri analistinin yapt\u0131\u011f\u0131 i\u015fler aras\u0131nda. R\u2019\u0131n Shiny paketi tam da bu durumlar i\u00e7in ideal bir ara\u00e7. Veri bilimi alan\u0131nda kad\u0131nlar\u0131n yerinden, global topluluklardan ve R-Ladies Istanbul\u2019un bu topluluklar aras\u0131ndaki yerinden bahsedilecek olan oturumda, R\u2019\u0131n Shiny uygulamalar\u0131 ile birlikte bir veri analistinin web geli\u015ftirme maceralar\u0131n\u0131 dinleyeceksiniz.",
         "keynote": 0,
-        "day": 1,
+        "day": 2,
         "track": 2,
-        "session": 2,
-        "time": "12:00",
+        "session": 5,
+        "time": "15:30",
         "language": "Türkçe"
       }
     ]
@@ -197,8 +197,8 @@
         "keynote": 0,
         "day": 1,
         "track": 2,
-        "session": 3,
-        "time": "14:00",
+        "session": 5,
+        "time": "16:30",
         "language": "Türkçe"
       }
     ]
@@ -218,10 +218,10 @@
         "title": "Crafting Quality PHP Applications",
         "description": "This prototype works, but it's not pretty, and now it's in production. That legacy application really needs some TLC. Where do we start? When creating long lived applications, it's imperative to focus on good practices. The solution is to improve the whole development life cycle; from planning, better coding and testing, to automation, peer review and more. In this talk, we'll take a quick look into each of these areas, looking at how we can make positive, actionable change in our workflow.",
         "keynote": 0,
-        "day": 2,
+        "day": 1,
         "track": 1,
-        "session": 1,
-        "time": "09:00",
+        "session": 3,
+        "time": "12:30",
         "language": "English"
       }
     ]
@@ -242,9 +242,9 @@
         "description": "The most common question or criticism about WordPress from PHP developers is: \u201cWhen will WordPress finally increase their minimum PHP version?\u201d In this talk Jenny will be sharing what WordPress has learnt from other PHP projects and how these lessons have informed the decision making and thought process of the WordPress efforts to upgrade. She will talk about the work being done with hosting providers, plugin authors and project Serve Happy. Come along to this talk if you want to find out what\u2019s on the cards for the future of WordPress and what you can learn on how to handle these kind of situations for your projects.",
         "keynote": 0,
         "day": 2,
-        "track": 1,
-        "session": 2,
-        "time": "10:00",
+        "track": 2,
+        "session": 6,
+        "time": "16:30",
         "language": "English"
       }
     ]
@@ -266,8 +266,8 @@
         "keynote": 0,
         "day": 2,
         "track": 1,
-        "session": 3,
-        "time": "11:00",
+        "session": 5,
+        "time": "15:30",
         "language": "English"
       }
     ]
@@ -287,10 +287,10 @@
         "title": "Temiz Kod Tasar\u0131m\u0131",
         "description": "Programlama bir zanaat. \u00c7\u0131rakl\u0131ktan ustal\u0131\u011fa \u00e7\u0131kt\u0131\u011f\u0131n\u0131z yolculu\u011funuzda s\u00fcrekli geli\u015ftirdi\u011finiz bir h\u00fcner. Bu h\u00fcner, zaman i\u00e7erisinde daha kaliteli kodlar\u0131n \u00fcretilmesini sa\u011flamal\u0131. Ancak g\u00fcn\u00fcm\u00fczde \u00fcretilen kodlar\u0131n kalitesinden s\u0131kl\u0131kla \u015fikayet etmemizden bu alanda \u00e7ok da fazla a\u015fama kaydetmedi\u011fimizi anl\u0131yoruz. Bu konuda art\u0131k ciddi bir ad\u0131m atmak zorunday\u0131z. Programlaman\u0131n temellerine inmeli, temiz kod tasar\u0131m\u0131 i\u00e7in gereken ortam\u0131 nas\u0131l sa\u011flayabilece\u011fimizi konu\u015fmal\u0131y\u0131z. Bu oturumda Lemi bizlere temiz kod tasar\u0131m\u0131 yapabilmek i\u00e7in gereken ad\u0131mlardan, \u00e7o\u011funlukla yanl\u0131\u015f bilinen ger\u00e7eklerden ve bir yaz\u0131l\u0131mc\u0131 i\u00e7in ustala\u015fmaya giden yolculuktan bahsedecek.",
         "keynote": 0,
-        "day": 2,
-        "track": 1,
-        "session": 4,
-        "time": "12:00",
+        "day": 1,
+        "track": 2,
+        "session": 3,
+        "time": "14:30",
         "language": "Türkçe"
       }
     ]
@@ -312,8 +312,8 @@
         "keynote": 0,
         "day": 2,
         "track": 1,
-        "session": 5,
-        "time": "14:00",
+        "session": 1,
+        "time": "10:00",
         "language": "English"
       }
     ]
@@ -335,8 +335,8 @@
         "keynote": 0,
         "day": 2,
         "track": 2,
-        "session": 1,
-        "time": "09:00",
+        "session": 4,
+        "time": "14:30",
         "language": "Türkçe"
       }
     ]
@@ -356,10 +356,10 @@
         "title": "Insider'da ayda 5 milyar Web Push bildirimini nasıl gönderiyoruz?",
         "description": "Insider'in kilit ürünlerinin başında \"Web Push Bildirimleri\" geliyor ve 350'den fazla müşteriye ayda 5 milyardan fazla bildirim gönderiyoruz. Bu sunumda ajandamız şu şekilde olacak; Web Push nedir ve ne gibi türleri vardır? Kullandığımız teknolojileri nasıl ölçeklendiriyoruz? Zamana karşı nasıl yarışıyor ve 1 dakikanın altında 5 milyon web push'u gönderiyoruz? PHP 7.1'e geçiş yaptığımızda ne gibi metriklerle karşılaştık? Oturumda bu soruları cevaplandırıyor olacağız.",
         "keynote": 0,
-        "day": 2,
+        "day": 1,
         "track": 2,
         "session": 2,
-        "time": "10:00",
+        "time": "12:30",
         "language": "Türkçe"
       }
     ]
@@ -380,9 +380,9 @@
         "description": "Jenkins has been one of the most popular continuous integration systems out there for many years. It was perfectly functional, but the UI wasn't the friendliest in the world and configuring jobs through a UI or XML files was just painful. In late 2016, Jenkins finally made it to version 2.0 which brought a huge number of improvements. From the new Blue Ocean UI to being able to define build configurations in your repo, it's a massive step up from version 1. In this talk, we'll go from an empty machine to a Jenkins install that automatically detects repos, branches and pull requests and builds them according to the Jenkinsfile in each branch. We'll be running tests, linting and packaging applications in parallel where possible, and even running things on Linux, Windows and MacOS all at the same time!",
         "keynote": 0,
         "day": 2,
-        "track": 2,
-        "session": 3,
-        "time": "11:00",
+        "track": 1,
+        "session": 2,
+        "time": "11:30",
         "language": "English"
       }
     ]
@@ -402,10 +402,10 @@
         "title": "PHP Projelerinde Test, CI ve CD S\u00fcre\u00e7leri",
         "description": "Bir PHP projesini testleri ile beraber Docker yard\u0131m\u0131 ile sanalla\u015ft\u0131rma ve izole ortamda \u00e7al\u0131\u015ft\u0131rarak CI ve CD ara\u00e7lar\u0131 ile build olu\u015fturarak deployment gibi s\u00fcre\u00e7leri otomatize etme süreçlerine de\u011finilecek.",
         "keynote": 0,
-        "day": 2,
+        "day": 1,
         "track": 2,
-        "session": 4,
-        "time": "12:00",
+        "session": 1,
+        "time": "11:30",
         "language": "Türkçe"
       }
     ]
@@ -426,9 +426,9 @@
         "description": "As developers, we try to follow best practices in our daily work. One such best practice is internationalization, a term that's used a lot in the ever globalizing world in which we live. However, it's often not fully understood or not used to its full extent. In this presentation, I'm going to explain the concept behind internationalization, localization, and their benefits. I will show how culture influences the user's behaviour and why we need to do more than just \"making things translatable\". For example, I18N is also about date formats, text direction, meaning of symbols, and even humor. Internationalization has a massive impact on user acceptance and usability. I will highlight existing tools, interfaces, and best practices to get I18N right in the UIs we create and the code we write.",
         "keynote": 0,
         "day": 2,
-        "track": 2,
-        "session": 5,
-        "time": "13:00",
+        "track": 1,
+        "session": 6,
+        "time": "16:30",
         "language": "English"
       }
     ]
@@ -449,9 +449,9 @@
         "description": "\"Every outage is like a murder mystery\" is a common complaint. But it doesn't have to be! This talk gives an overview on how to monitor PHP applications from all possible sides. We dive into: * System metrics: Keep track of network traffic and system load. * Application metrics: Gather metrics of nginx or Apache, php-fpm, and MySQL. * Application logs: Collect logs in a structured format or parse them to extract all the relevant information. * Uptime monitoring: Ping services and actively monitor their availability and response time. And we will do all of that live since it is so easy and much more interactive that way.",
         "keynote": 0,
         "day": 2,
-        "track": 2,
-        "session": 6,
-        "time": "14:00",
+        "track": 1,
+        "session": 4,
+        "time": "14:30",
         "language": "English"
       }
     ]
@@ -471,10 +471,10 @@
         "title": "Deep dive into Symfony 4 internals",
         "description": "Symfony is a request and response framework. But what about all that magic that happens around your code? How does security work? Why isn\u2019t autowring slowing things down? And how is it that symfony components can be so decoupled but sill play so well together? I will show you the symfony internals This talk will go over the architecture of Symfony. We will follow the request and the response paths throw the framework. We will do some stops at the components that are more awesome than others. This talk is perfect for you who been working with Symfony or Laravel before. But if you never touched a framework before, dont worry. You will still learn a lot from this talk.",
         "keynote": 0,
-        "day": 2,
-        "track": 2,
-        "session": 7,
-        "time": "15:00",
+        "day": 1,
+        "track": 1,
+        "session": 4,
+        "time": "14:30",
         "language": "English"
       }
     ]
@@ -496,8 +496,8 @@
         "keynote": 0,
         "day": 2,
         "track": 2,
-        "session": 8,
-        "time": "16:00",
+        "session": 2,
+        "time": "11:30",
         "language": "Türkçe"
       }
     ]
