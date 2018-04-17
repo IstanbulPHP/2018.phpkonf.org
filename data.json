@@ -102,6 +102,29 @@
     ]
   },
   {
+    "name": "Filiz Altıntürk",
+    "title": "Sr. Frontend Developer at Boyner Grup",
+    "bio": "On yılı aşkın bir süredir dijital ajanslar ve kurumsal firmalar için Front-End teknolojileri geliştiriyorum. Son iki yıldır yüksek trafik alan web sitelerinin performans iyileştirmeleri konusunda araştırma ve geliştirmeler yapıyorum. Şu an Boyner'de Senior Front-End Developer olarak çalışmaktayım.",
+    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/filiz.jpg",
+    "social": {
+      "twitter": "https:\/\/twitter.com\/Filiz_Altinturk",
+      "github": "https:\/\/github.com\/filiz137",
+      "linkedin": "https:\/\/www.linkedin.com\/in\/filizaltinturk"
+    },
+    "sessions": [
+      {
+        "title": "Front-end'in 1 saniyesi",
+        "description": "Web siteleri için mobil uyumluluk ve performans artık bir tercih değil, zorunluluk. Gün geçtikçe artan internet kullanım oranları, özellikle de mobil cihazların göz ardı edilemeyecek yaygınlığı, tüm internet hızlarında ve tüm cihazlarda kullanıcı deneyimi geliştirmemiz konusunda bizi mecbur kılıyor. Hız ve performansın bu göz ardı edilemeyecek önemine karşın son birkaç yılda ortalama web sitelerinin boyutu üç katına çıktı ve birçok web tekniği ve platformu performansı göz ardı etti. Biten bataryalarımız, internet paketlerimiz ve sayfanın yüklenmesini beklerken yiten zamanlarımız oldu. Performans optimizasyonu şimdi yeni bir dalga, akım olarak karşımıza çıkar oldu. Bu sunumda kimler performans artışı için ne yaptı (NY Times ve BBC, Amazon ve tabi ki Nesine.com ), neler kazandı? Bunun için yapılabilecekler nelerdir (http/2, Service Workers, PWA, Resource Hints, WebFont Performans), biraz bunlardan bahsedeceğim.",
+        "keynote": 0,
+        "day": 1,
+        "track": 2,
+        "session": 2,
+        "time": "17:30",
+        "language": "Türkçe"
+      }
+    ]
+  },
+  {
     "name": "Gary Hockin",
     "title": "Sr. Software Engineer at BBC",
     "bio": "Gary travels all over the world empowering users of PhpStorm as a Developer Advocate for JetBrains (fine purveyors of quality IDEs). He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to the Zend Framework and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least standard with nearly 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games, and arguing with his wife and two kids.",
