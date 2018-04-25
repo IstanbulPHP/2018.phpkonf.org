@@ -2139,6 +2139,9 @@ span {
 .footer {
   color: #ffffff;
 }
+.color-white {
+    color: white !important;
+}
 .light-text h1,
 .light-text h2,
 .light-text h3,
