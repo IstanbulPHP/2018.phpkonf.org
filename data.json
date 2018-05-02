@@ -70,9 +70,9 @@
         "title": "PHP ile Defansif Programlama ve Statik Analiz",
         "description": "Oturumda 7.0 s\u00fcr\u00fcm\u00fcyle Gradual typing'e ge\u00e7i\u015f yapan PHP'in Defansif Programlama taraf\u0131nda getirdikleri; hata derleme, soyutlama, calisthenics, de\u011fi\u015fmez objeler ve statik analiz anlat\u0131larak uzun \u00f6m\u00fcrl\u00fc ve \u00f6zellikle a\u00e7\u0131k kaynak projelerde uygulanmas\u0131 gereken bilgiler payla\u015f\u0131lacak.",
         "keynote": 0,
-        "day": 1,
+        "day": 2,
         "track": 2,
-        "session": 4,
+        "session": 5,
         "time": "15:30",
         "language": "Türkçe"
       }
@@ -210,8 +210,8 @@
         "keynote": 0,
         "day": 2,
         "track": 2,
-        "session": 5,
-        "time": "15:30",
+        "session": 6,
+        "time": "16:30",
         "language": "Türkçe"
       }
     ]
@@ -389,6 +389,16 @@
     },
     "sessions": [
       {
+        "title": "Behat for characterisation on tests",
+        "description": "Once an API ships it doesn't matter how it should behave - how it actually behaves is the important part. Users depend on the existing behaviour and we need a way to ensure that it doesn't change Behat is a tool that was built to help design software, but it’s actually a great tool for capturing existing behaviour too. We’ve used these tools to gain confidence to refactor 5+ year old apps by capturing the existing behaviour before making changes. I want to share the secrets we learned with you.",
+        "keynote": 0,
+        "day": 1,
+        "track": 1,
+        "session": 7,
+        "time": "17:30",
+        "language": "English"
+      },
+      {
         "title": "Zero to Jenkins: Automatic builds + deploys",
         "description": "Jenkins has been one of the most popular continuous integration systems out there for many years. It was perfectly functional, but the UI wasn't the friendliest in the world and configuring jobs through a UI or XML files was just painful. In late 2016, Jenkins finally made it to version 2.0 which brought a huge number of improvements. From the new Blue Ocean UI to being able to define build configurations in your repo, it's a massive step up from version 1. In this talk, we'll go from an empty machine to a Jenkins install that automatically detects repos, branches and pull requests and builds them according to the Jenkinsfile in each branch. We'll be running tests, linting and packaging applications in parallel where possible, and even running things on Linux, Windows and MacOS all at the same time!",
         "keynote": 0,
@@ -507,10 +517,10 @@
         "title": "Son Trend Konteyner Teknolojileri ve Bulut Bilişim",
         "description": "Sanallaştırma teknolojisi ile doğan bulut bilişim; son zamanların popüler teknolojisi konteynerlar; docker ve kubernetes. Temel olarak teknolojilerin açıklamaları, birbirleri ile ilişkileri, farkları, avantajları ve dezavantajlarını bu oturumda değerlendiriyoruz.",
         "keynote": 0,
-        "day": 2,
+        "day": 1,
         "track": 2,
-        "session": 6,
-        "time": "16:30",
+        "session": 4,
+        "time": "15:30",
         "language": "Türkçe"
       }
     ]
