@@ -355,14 +355,14 @@
     ]
   },
   {
-    "name": "Mehmet Sinan Toktay",
-    "title": "CTO at Insider",
-    "bio": "As the Chief Technology Officer, Sinan is responsible for Insider\u2019s product execution strategy. He is an expert in developing scalable systems and maintaining our top-notch engineering power. Prior to joining Insider, Sinan gained experience in secure development of cloud applications and worked as a software consultant at Oracale. He was also granted 2nd place for his e-voting by the IBM Software Academy. Sinan was selected as an Endeavor Entrepreneur in ISP-2014. He holds a BSc Computer Engineering degree from Istanbul Technical University and continues his Master\u2019s degree in International Business Administration.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/sinan.jpg",
+    "name": "Ersoy Pembe",
+    "title": "Sr. Software Developer at Insider",
+    "bio": "Ersoy Pembe has been working as a senior software engineer and architect for Insider. He holds a BSc Computer Engineering degree from Koç University. Before joining Insider, he worked for InsightHealth (Germany), Mobven, Peak Games, and Positive. He is an expert at designing, developing and maintaining scalable systems.",
+    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/ersoy.png",
     "social": {
-      "twitter": "https:\/\/twitter.com\/msinantoktay",
-      "github": "https:\/\/github.com\/msinantoktay",
-      "linkedin": "https:\/\/www.linkedin.com\/in\/mehmet-sinan-toktay-19287348\/"
+      "twitter": "#",
+      "github": "https://github.com/ersoy-insider",
+      "linkedin": "https://tr.linkedin.com/in/ersoy-pembe"
     },
     "sessions": [
       {
