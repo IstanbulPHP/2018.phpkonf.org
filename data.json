@@ -79,6 +79,29 @@
     ]
   },
   {
+    "name": "Ersoy Pembe",
+    "title": "Sr. Software Developer at Insider",
+    "bio": "Ersoy Pembe has been working as a senior software engineer and architect for Insider. He holds a BSc Computer Engineering degree from Koç University. Before joining Insider, he worked for InsightHealth (Germany), Mobven, Peak Games, and Positive. He is an expert at designing, developing and maintaining scalable systems.",
+    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/ersoy.jpg",
+    "social": {
+      "twitter": "#",
+      "github": "https://github.com/ersoy-insider",
+      "linkedin": "https://tr.linkedin.com/in/ersoy-pembe"
+    },
+    "sessions": [
+      {
+        "title": "Insider'da ayda 5 milyar Web Push bildirimini nasıl gönderiyoruz?",
+        "description": "Insider'in kilit ürünlerinin başında \"Web Push Bildirimleri\" geliyor ve 350'den fazla müşteriye ayda 5 milyardan fazla bildirim gönderiyoruz. Bu sunumda ajandamız şu şekilde olacak; Web Push nedir ve ne gibi türleri vardır? Kullandığımız teknolojileri nasıl ölçeklendiriyoruz? Zamana karşı nasıl yarışıyor ve 1 dakikanın altında 5 milyon web push'u gönderiyoruz? PHP 7.1'e geçiş yaptığımızda ne gibi metriklerle karşılaştık? Oturumda bu soruları cevaplandırıyor olacağız.",
+        "keynote": 0,
+        "day": 1,
+        "track": 2,
+        "session": 2,
+        "time": "12:30",
+        "language": "Türkçe"
+      }
+    ]
+  },
+  {
     "name": "Fatih Kadir Akin",
     "title": "Full-stack Developer at Protel",
     "bio": "Ben Fatih Kadir Akın. 2000 yılından beri JavaScript geliştiriyorum. Yazılım hayatım boyunca JavaScript, PHP, Python, Ruby ve Crystal ile bir çok küçük ve büyük proje geliştirdim. Son zamanlarda profesyonel hayatıma Ruby, JavaScript/ECMAScript ve Crystal ile devam ediyorum. Daha önceden Hepsiburada, MetGlobal, Koding ve Markafoni'de JavaScript ve arayüz geliştirici olarak görev aldım. Şu an Protel Bilgisayar AŞ'de yazılım geliştirme ekibinde full-stack geliştirici olarak görev alıyorum. JavaScript İstanbul Topluluğu (Jstanbul)'nun kurucu ekibindenim. 2013 yılında Modern JavaScript kitabını yazdım.",
@@ -350,29 +373,6 @@
         "track": 2,
         "session": 5,
         "time": "16:30",
-        "language": "Türkçe"
-      }
-    ]
-  },
-  {
-    "name": "Ersoy Pembe",
-    "title": "Sr. Software Developer at Insider",
-    "bio": "Ersoy Pembe has been working as a senior software engineer and architect for Insider. He holds a BSc Computer Engineering degree from Koç University. Before joining Insider, he worked for InsightHealth (Germany), Mobven, Peak Games, and Positive. He is an expert at designing, developing and maintaining scalable systems.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/ersoy.jpg",
-    "social": {
-      "twitter": "#",
-      "github": "https://github.com/ersoy-insider",
-      "linkedin": "https://tr.linkedin.com/in/ersoy-pembe"
-    },
-    "sessions": [
-      {
-        "title": "Insider'da ayda 5 milyar Web Push bildirimini nasıl gönderiyoruz?",
-        "description": "Insider'in kilit ürünlerinin başında \"Web Push Bildirimleri\" geliyor ve 350'den fazla müşteriye ayda 5 milyardan fazla bildirim gönderiyoruz. Bu sunumda ajandamız şu şekilde olacak; Web Push nedir ve ne gibi türleri vardır? Kullandığımız teknolojileri nasıl ölçeklendiriyoruz? Zamana karşı nasıl yarışıyor ve 1 dakikanın altında 5 milyon web push'u gönderiyoruz? PHP 7.1'e geçiş yaptığımızda ne gibi metriklerle karşılaştık? Oturumda bu soruları cevaplandırıyor olacağız.",
-        "keynote": 0,
-        "day": 1,
-        "track": 2,
-        "session": 2,
-        "time": "12:30",
         "language": "Türkçe"
       }
     ]
