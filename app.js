@@ -42,6 +42,10 @@ var App = new Vue({
 
             for (const speakerWithSessions of speakersWithSessions) {
                 for (const session of speakerWithSessions.sessions) {
+                    if (session.day !== day || session.track !== track) {
+                        continue;
+                    }
+
                     const schedule = {
                         sessionNumber: session.session,
                         time: session.time,
