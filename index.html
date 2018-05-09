@@ -234,7 +234,16 @@
 
                     <!-- Navigation by auditorium start -->
                     <div class="nav-wrapper"><ul class="nav nav-schedule">
-                        <li v-bind:class="{ active: track.isSelected }" v-for="track of day.tracks"><a v-bind:href="`#day${day.dayNumber}_auditorium${track.trackNumber}`" data-toggle="tab">TRACK {{ track.trackNumber }}</a></li>
+                        <li v-bind:class="{ active: track.isSelected }" v-for="track of day.tracks">
+                            <a v-bind:href="`#day${day.dayNumber}_auditorium${track.trackNumber}`" data-toggle="tab">
+                                <div v-if="track.trackNumber == 1">
+                                    Peak Games Track
+                                </div>
+                                <div v-else>
+                                    Insider Track
+                                </div>
+                            </a>
+                        </li>
                     </ul></div>
                     <!-- Navigation by auditorium start -->
 
@@ -402,7 +411,7 @@
         <hr/>
 
         <div class="sponsors">
-            <h5 style="font-weight: lighter">Printed Sponsor</h5>
+            <h5 style="font-weight: lighter">Printing Sponsor</h5>
             <div style="padding: 30px">
                 <div><a target="_blank" href="https://bidolubaski.com"><img src="assets/images/sponsors/bidolubaski.png"
                                                                             alt="bidolubaski"></a></div>
