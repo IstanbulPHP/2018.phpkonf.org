@@ -3,7 +3,7 @@
     "name": "Bilal Cinarli",
     "title": "Software Engineer at adidas, GDE on Web Technologies",
     "bio": "Bilal is a big enthusiast of building maintainable and scalable front-ends. To achieve this goal, he maintains open-source projects such as Caffeine, Melange, Misto and UX Rocket. In day-to-day works, he works on mobile web apps and JavaScript applications for intranets and as well as clients. He manages teams and optimizes the front-end development process. He is also, teaches HTML\/CSS and JavaScript techniques and gave workshops about Front-end related topics. He blogs at HTML Mag and share his thoughts about web development, mobile approaches.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/bilal.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/bilal.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/bcinarli",
       "github": "https:\/\/github.com\/bcinarli",
@@ -26,7 +26,7 @@
     "name": "Derick Rethans",
     "title": "Sr. Software Engineer at MongoDB, author of Xdebug",
     "bio": "Derick Rethans is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast. He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He's a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He is now working at MongoDB, where he works on the PHP, C, and C++ drivers for MongoDB, and date\/time related server features.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/derick.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/derick.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/derickr",
       "github": "https:\/\/github.com\/derickr",
@@ -59,7 +59,7 @@
     "name": "Emir Karsiyakali",
     "title": "Software Architect, PHP Evangelist",
     "bio": "Emir Kar\u015f\u0131yakal\u0131 is Web developer with a passion for open-source, community & PHP. He is Zend Certified PHP Engineer and over 10 years of experience in web application development. User group leader of \u0130stanbul PHP. Organizer of PHPKonf 2014, 2015, 2016 and 2017, Jstanbul 2012, JSIST 2014, Mobilist 2013, PHP-ist 2013, HackING Hackathon 2014 and much more.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/emir.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/emir.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/emirkarsiyakali",
       "github": "https:\/\/github.com\/emir",
@@ -82,7 +82,7 @@
     "name": "Ersoy Pembe",
     "title": "Sr. Software Developer at Insider",
     "bio": "Ersoy Pembe has been working as a senior software engineer and architect for Insider. He holds a BSc Computer Engineering degree from Koç University. Before joining Insider, he worked for InsightHealth (Germany), Mobven, Peak Games, and Positive. He is an expert at designing, developing and maintaining scalable systems.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/ersoy.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/ersoy.jpg",
     "social": {
       "twitter": "#",
       "github": "https://github.com/ersoy-insider",
@@ -105,7 +105,7 @@
     "name": "Fatih Kadir Akin",
     "title": "Full-stack Developer at Protel",
     "bio": "Ben Fatih Kadir Akın. 2000 yılından beri JavaScript geliştiriyorum. Yazılım hayatım boyunca JavaScript, PHP, Python, Ruby ve Crystal ile bir çok küçük ve büyük proje geliştirdim. Son zamanlarda profesyonel hayatıma Ruby, JavaScript/ECMAScript ve Crystal ile devam ediyorum. Daha önceden Hepsiburada, MetGlobal, Koding ve Markafoni'de JavaScript ve arayüz geliştirici olarak görev aldım. Şu an Protel Bilgisayar AŞ'de yazılım geliştirme ekibinde full-stack geliştirici olarak görev alıyorum. JavaScript İstanbul Topluluğu (Jstanbul)'nun kurucu ekibindenim. 2013 yılında Modern JavaScript kitabını yazdım.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/fatih.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/fatih.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/fkadev",
       "github": "https:\/\/github.com\/f",
@@ -128,7 +128,7 @@
     "name": "Filiz Altıntürk",
     "title": "Sr. Frontend Developer at Boyner Grup",
     "bio": "On yılı aşkın bir süredir dijital ajanslar ve kurumsal firmalar için Front-End teknolojileri geliştiriyorum. Son iki yıldır yüksek trafik alan web sitelerinin performans iyileştirmeleri konusunda araştırma ve geliştirmeler yapıyorum. Şu an Boyner'de Senior Front-End Developer olarak çalışmaktayım.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/filiz.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/filiz.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/Filiz_Altinturk",
       "github": "https:\/\/github.com\/filiz137",
@@ -151,7 +151,7 @@
     "name": "Gary Hockin",
     "title": "Sr. Software Engineer at BBC",
     "bio": "Gary travels all over the world empowering users of PhpStorm as a Developer Advocate for JetBrains (fine purveyors of quality IDEs). He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to the Zend Framework and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least standard with nearly 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games, and arguing with his wife and two kids.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/gary.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/gary.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/GeeH",
       "github": "https:\/\/github.com\/GeeH",
@@ -174,7 +174,7 @@
     "name": "Gulcin Yildirim Jelinek",
     "title": "SRE at 2ndQuadrant, Board Member on PostgreSQL EU",
     "bio": "G\u00fcl\u00e7in started working with PostgreSQL at a startup company in 2012 and was amazed how good Postgres really is! After being involved in organizing PostgreSQL conferences, giving talks and being an active community member she has been elected to PostgreSQL Europe Board in 2017. Gulcin is interested in PostgreSQL Automation and Cloud Technologies. She currently leads the Cloud service offerings at 2ndQuadrant as Site Reliability Engineer.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/gulcin.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/gulcin.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/apatheticmagpie",
       "github": "https:\/\/github.com\/apatheticmagpie",
@@ -197,7 +197,7 @@
     "name": "Hazel Kavili",
     "title": "Data Analyst at Wixot Games",
     "bio": "Hazel Kav\u0131l\u0131 studied Statistics (B.Sc. and M.Sc.) and she currently works at Wixot as Data Analyst. Besides work she also does her PhD in Earth System Sciences. She is also the founder of R-Ladies Istanbul chapter and member of NASADatanauts 2017 spring class.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/hazel.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/hazel.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/zofiathewitch",
       "github": "https:\/\/github.com\/UniversalTourist",
@@ -220,7 +220,7 @@
     "name": "Ismail Baskin",
     "title": "Google Cloud Developer Expert, Full-stack Developer",
     "bio": "Ismail Baskin is full stack developer for 12 years and has 2 years Google Cloud Services experience. He has been working as a freelancer developer and consultant.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/ismail.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/ismail.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/baskindev",
       "github": "https:\/\/github.com\/ismailbaskin",
@@ -243,7 +243,7 @@
     "name": "James Titcumb",
     "title": "Consultant at Roave, maintainer of Zend Framework",
     "bio": "James is a consultant, trainer and developer at Roave. He is a prolific contributor to various open source projects and is a Zend Certified Engineer. He also founded the UK based PHP Hampshire user group and PHP South Coast conference.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/james.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/james.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/asgrim",
       "github": "https:\/\/github.com\/asgrim",
@@ -266,7 +266,7 @@
     "name": "Jenny Wong",
     "title": "Community Engineer at Human Made",
     "bio": "Once a Web Developer, Jenny now works as a Community Engineer at Human Made. When she started, she spent her first two weeks organizing a conference. She can often be found evangelizing open source community, event organiser and occasionally, speaker. Her days are varied: From solving issues with event sites & supporting organisers, to passionately cheering people on to contribute back to their communities. She loves cooking up elaborate ideas to help improve participation experiences in open source projects. When away from the laptop, she\u2019s usually binge watching Formula 1 & anime, doing house renovations or making a mess whilst cooking. You can find her on your messaging service of choice, making plenty of typos.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/jenny.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/jenny.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/miss_jwo",
       "github": "https:\/\/github.com\/missjwo",
@@ -289,7 +289,7 @@
     "name": "Juliette R. Folmer",
     "title": "Self-employed developer",
     "bio": "Juliette Reinders Folmer is an all round consultant and web-developer who tries not be a geek. Juliette is a long-standing member of PHPWomen which helped her immensely to find her feet in the PHP world. She is ZCE, actively contributes to a number of open source projects, has published several articles and speaks at conferences when given the chance. She loves it when you give her a chance to refactor spaghetti-code to something elegant and maintainable. Juliette is self-employed and based in the Netherlands.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/juliette.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/juliette.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/jrf_nl",
       "github": "https:\/\/github.com\/jrfnl",
@@ -312,7 +312,7 @@
     "name": "Lemi Orhan Ergin",
     "title": "Agile Software Craftsman at Craftbase",
     "bio": "Lemi Orhan Ergin has been working as Agile Software Craftsman and Agile Practice Lead at Craftbase. He completed his undergraduate and graduate degree in Computer Engineering department of Marmara University. He has been actively developing software since 2001. He has worked as software architect, software craftsman, technical leader, team leader, technical coordinator, Scrum Master and Agile coach in dozens of software projects at BYM, GittiGidiyor \/ eBay and Sony. As a managing partner in ACM, he has provided consulting services to dozens of companies. He has led the establishment of agile software cultures, continuity and sustainability in software teams. He has been sharing his experience about Agile \/ Scrum, Kanban, Management 3.0, Git, ALM Processes, TDD, Clean Code, Agile Engineering Practices and Software Craftsmanship with hundreds of professionals. He has been a national and international conference speaker. Slides of his talks has been displayed more than 1 million times on the Internet. He works voluntarily in software communities. He is the founder of the Software Craftsmanship Turkey community. He had been the leader of the community and the product owner of Agile Turkey Summit and CraftSummit conferences for two years.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/lemi.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/lemi.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/lemiorhan",
       "github": "https:\/\/github.com\/lemiorhan",
@@ -335,7 +335,7 @@
     "name": "Mark Baker",
     "title": "Lead Developer at Paybreak; author of PHPOffice",
     "bio": "Mark is Lead\/Senior Developer at Paybreak, a fintech company based in Altrincham near Manchester, UK. He has worked in the computer software industry since before symbolics.com was registered as a domain name, before \"cyberspace\" was first mentioned in fiction, when Linus Torvalds and Rasmus Lerdorf were still at high school, and Mrs. Zuckerberg had yet to give birth to a bouncing baby social network enabler; and has developed for the Web in many different languages since the days when the Tim Berners-Lee's creation comprised less than 1,000 sites. Over those years he has contributed to a number of open source projects: including a minor submission to PHP's SPL. Currently he is coordinator and lead developer for the PHPExcel library, and a coordinator and developer on the PHPOffice library suite. Most recently, he has been working on new datastructures such as Tries, Quadtrees and Matrices; hoping that he'll eventually be able to get them included in SPL. His particular interests include PHP integration with office suites, Generators, Textual analysis, Geodata and geographic information systems, and \"big data\" and data analysis.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/mark.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/mark.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/Mark_Baker",
       "github": "https:\/\/github.com\/MarkBaker",
@@ -358,7 +358,7 @@
     "name": "Mehmet Ince",
     "title": "Managing Partner at INVICTUS \/ PRODAFT",
     "bio": "Renowned as one of the leading figures of web application security, Mehmet \u0130NCE's involvement with security dates back to the beginning of 2000s. Primarily working as a researcher regardless of his role and career in different organizations and companies, Mehmet has continued to publish new and interesting vulnerabilities on a wide variety of technology and infrastructures. In terms of his corporate life, INCE started his career as a penetration tester in various security companies during his junior college years. When he reached his senior year in Sakarya University, he has partnered up with his old-time friends for new security ventures. In the meantime, he has worked for Sony as a senior security engineer and penetration tester. When his own ventures started to flourish, he came back home and focused on building these fairly young and promising companies. Currently working as one of the managing partners of INVICTUS (one of the leading security companies of EMEA region) and PRODAFT SARL (a swiss-based Cyber Intelligence company); Mehmet continues to build and operate his team of skilled researchers. Despite his busy schedule, Mehmet also spends a considerable amount of time, sharing his experience and contributing to the security community by means of his articles on pentest.blog which he runs together with his team.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/mehmet.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/mehmet.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/mdisec",
       "github": "https:\/\/github.com\/mmetince",
@@ -381,7 +381,7 @@
     "name": "Michael Heap",
     "title": "Developer Advocate at Nexmo",
     "bio": "Michael is a polyglot software engineer, committed to reducing complexity in systems and making them more predictable. Working with a variety of languages and tools, he shares his technical expertise to audiences all around the world at user groups and conferences. Day to day, Michael is a developer advocate at Nexmo. He spends his time learning, teaching and writing about all kinds of technology. When not immersed in technology, you'll find him either playing various board games or hiking through the countryside.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/michael.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/michael.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/mheap",
       "github": "https:\/\/github.com\/mheap",
@@ -414,7 +414,7 @@
     "name": "Mustafa Ileri",
     "title": "R&D Team Lead at Zingat.com",
     "bio": "1983 İstanbul doğumluyum. Kocaeli Üniversitesi Elektrik Öğretmenliği mezunuyum. Yaklaşık olarak 13 yıldır profesyonel olarak yazılım geliştirme konusunda farklı pozisyonlarda çalışım. Favori programlama dillerim; PHP, Python. Bununla beraber kullanmayı sevdiğim frameworkler Symfony, Django, Flask. Web dünyasının yanında, son 1 yıldır data mining ve veri mühendisliği konuları üzerinde çalışıyorum.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/mustafa.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/mustafa.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/mustafaileri",
       "github": "https:\/\/github.com\/mustafaileri",
@@ -437,7 +437,7 @@
     "name": "Pascal Birchler",
     "title": "WordPress core committer",
     "bio": "Pascal is a student, software engineer, and public speaker based in Zurich, Switzerland. As a WordPress core committer he's a very active community member. Living in a multilingual country, Pascal has a keen interest in internationalization and localization.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/pascal.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/pascal.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/swissspidy",
       "github": "https:\/\/github.com\/swissspidy",
@@ -460,7 +460,7 @@
     "name": "Philipp Krenn",
     "title": "Developer Advocate at Elastic",
     "bio": "Philipp is part of the infrastructure team and a developer advocate at Elastic. He is frequently talking about full-text search, databases, operations, and security. Additionally, he is organizing multiple meetups in Vienna.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/philipp.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/philipp.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/xeraa",
       "github": "https:\/\/github.com\/xeraa",
@@ -483,7 +483,7 @@
     "name": "Tobias Nyholm",
     "title": "CTO at Happyr, Symfony core team",
     "bio": "Tobias is a software entrepreneur and have spent many years working within the web development ecosystem. He is organizer of Swedish PHP meetups, co-host of the Sound of Symfony podcast and a public speaker and Symfony core team member. He has written articles for php[architect], sitepoint and is a certified Symfony developer. Tobias is actively maintaining httplug.io, guzzle, buzz, php-geocoder, KnpGithub API client, Maingun API client, LinkedIn API client, Neo4j bundle and many more. He also writes a PSR for HTTP clients.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/tobias.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/tobias.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/tobiasnyholm",
       "github": "https:\/\/github.com\/Nyholm",
@@ -506,7 +506,7 @@
     "name": "Yasemin Demiral",
     "title": "Researcher at Tübitak BİLGEM",
     "bio": "Yasemin DEMİRAL, Tübitak BİLGEM bünyesinde yer alan B3LAB (Bulut Bilişim ve Büyük Veri Lab.) da araştırmacı olarak çalışmaktadır. Lisansını Anadolu Üniversitesi’nde tamamlayarak Gazi Üniversitesi’nde yüksek lisansına devam etmektedir. ydemiral.blogspot.com isimli blog sitesi olup, fotografçılıkla ilgilenerek #byjasmin isimli instagram hesabından paylaşımlar yapmaktadır.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/yasemin.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/yasemin.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/yasmindemiral",
       "github": "https:\/\/github.com\/yasmindemiral",
@@ -529,7 +529,7 @@
     "name": "Ziyahan Albeniz",
     "title": "Security Researcher at Netsparker",
     "bio": "1986 Istanbul. He graduated Computer Programming at Sakarya University. Works in Netsparker as a security researcher. He continues his work with mentorship of Ferruh Mavituna. He reported issues to alot of big company and he has been located these companies` hall of fame. His articles and researches is published on Netsparker Turkey Security Blog and he prepares and presents to his security podcast called Klavye Delikanl\u0131lar\u0131 with Mustafa Yalcin.",
-    "avatar": "https:\/\/phpkonf.org\/assets\/images\/speakers\/ziyahan.jpg",
+    "avatar": "https:\/\/2018.phpkonf.org\/assets\/images\/speakers\/ziyahan.jpg",
     "social": {
       "twitter": "https:\/\/twitter.com\/ziyaxanalbeniz",
       "github": "https:\/\/github.com\/ziyahan",
